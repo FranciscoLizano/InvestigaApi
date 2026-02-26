@@ -23,7 +23,7 @@ namespace ConsumoAPI
         private async void btnAgregar_Click(object sender, EventArgs e)
         {
             using (HttpClient client = new HttpClient())
-            {
+            { //Es una prueba
                 try
                 {
                     var nuevoProducto = new Producto
