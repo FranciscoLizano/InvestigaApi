@@ -1,0 +1,14 @@
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\bin\Debug\ConsumoAPI.exe.config
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\bin\Debug\ConsumoAPI.exe
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\bin\Debug\ConsumoAPI.pdb
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.csproj.AssemblyReference.cache
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.csproj.SuggestedBindingRedirects.cache
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.Form1.resources
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.Properties.Resources.resources
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.csproj.GenerateResource.cache
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.csproj.CoreCompileInputs.cache
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.csproj.CopyComplete
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.exe
+C:\Users\jamador\OneDrive - Aplicom S.A\Escritorio\UAM\EJEMPLOS DE CLASE\02-2025\Ing Sistemas\Clase11\ConsumoAPI\obj\Debug\ConsumoAPI.pdb
