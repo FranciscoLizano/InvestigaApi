@@ -1,24 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{367F7FC3-2746-45B5-9AB8-C5A853398CFC}|PL_ConsumoAPI\\PL_ConsumoAPI.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\consumoapi\\pl_consumoapi\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{367F7FC3-2746-45B5-9AB8-C5A853398CFC}|PL_ConsumoAPI\\PL_ConsumoAPI.csproj|solutionrelative:pl_consumoapi\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{367F7FC3-2746-45B5-9AB8-C5A853398CFC}|PL_ConsumoAPI\\PL_ConsumoAPI.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\pl_consumoapi\\cambiodolar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{367F7FC3-2746-45B5-9AB8-C5A853398CFC}|PL_ConsumoAPI\\PL_ConsumoAPI.csproj|solutionrelative:pl_consumoapi\\cambiodolar.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{367F7FC3-2746-45B5-9AB8-C5A853398CFC}|PL_ConsumoAPI\\PL_ConsumoAPI.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\pl_consumoapi\\cambiodolar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{367F7FC3-2746-45B5-9AB8-C5A853398CFC}|PL_ConsumoAPI\\PL_ConsumoAPI.csproj|solutionrelative:pl_consumoapi\\cambiodolar.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7BCD70B8-79BF-4DD6-B3AF-5201A61CF5BC}|DAL_ConsumoAPI\\DAL_ConsumoAPI.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\dal_consumoapi\\cls_cambiodolar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BCD70B8-79BF-4DD6-B3AF-5201A61CF5BC}|DAL_ConsumoAPI\\DAL_ConsumoAPI.csproj|solutionrelative:dal_consumoapi\\cls_cambiodolar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\Investigacion\\ConsumoAPI\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,22 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Estilos.css",
-              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\PL_ConsumoAPI\\css\\Estilos.css",
-              "RelativeDocumentMoniker": "PL_ConsumoAPI\\css\\Estilos.css",
-              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\PL_ConsumoAPI\\css\\Estilos.css",
-              "RelativeToolTip": "PL_ConsumoAPI\\css\\Estilos.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-03T17:27:30.848Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -53,45 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CambioDolar.aspx",
-              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\PL_ConsumoAPI\\CambioDolar.aspx",
-              "RelativeDocumentMoniker": "PL_ConsumoAPI\\CambioDolar.aspx",
-              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\PL_ConsumoAPI\\CambioDolar.aspx",
-              "RelativeToolTip": "PL_ConsumoAPI\\CambioDolar.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-03-03T16:37:30.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CambioDolar.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\PL_ConsumoAPI\\CambioDolar.aspx.cs",
-              "RelativeDocumentMoniker": "PL_ConsumoAPI\\CambioDolar.aspx.cs",
-              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\PL_ConsumoAPI\\CambioDolar.aspx.cs",
-              "RelativeToolTip": "PL_ConsumoAPI\\CambioDolar.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T16:42:20.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "cls_CambioDolar.cs",
-              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\DAL_ConsumoAPI\\cls_CambioDolar.cs",
-              "RelativeDocumentMoniker": "DAL_ConsumoAPI\\cls_CambioDolar.cs",
-              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\ConsumoAPI\\DAL_ConsumoAPI\\cls_CambioDolar.cs",
-              "RelativeToolTip": "DAL_ConsumoAPI\\cls_CambioDolar.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T17:06:23.823Z",
-              "EditorCaption": ""
             }
           ]
         }

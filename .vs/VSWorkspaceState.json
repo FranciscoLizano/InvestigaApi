@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Insumos",
-    "\\Investigacion"
+    "\\Investigacion",
+    "\\Investigacion\\ConsumoAPI",
+    "\\Investigacion\\ConsumoAPI\\PL_ConsumoAPI",
+    "\\Investigacion\\ConsumoAPI\\PL_ConsumoAPI\\css"
   ],
-  "SelectedNode": "\\Insumos\\CrudAlquisoft.jpg",
+  "SelectedNode": "\\Investigacion\\ConsumoAPI\\PL_ConsumoAPI\\css\\Estilos.css",
   "PreviewInSolutionExplorer": false
 }
