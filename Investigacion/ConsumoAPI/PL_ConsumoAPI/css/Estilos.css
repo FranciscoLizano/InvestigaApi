@@ -1,0 +1,67 @@
+﻿body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    background-color: #0d3b66;
+    border: none;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    font-family: "Segoe UI";
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+.lbl {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 24px; 
+   /* font-weight: 700;*/
+    color: #ffffff; 
+    background-color: #0d3b66; 
+    padding: 20px 40px; 
+    border-radius: 15px; 
+    display: inline-block;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); 
+}
+.list {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table.tabla-historico {
+    width: 70%;
+    border-collapse: collapse;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #0d3b66; 
+    color: #ffffff; 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    font-size: 16px;
+}
+
+
+    table.tabla-historico th {
+        background-color: #22607f; /* Mismo azul */
+        color: white;
+        padding: 15px;
+        text-align: center;
+        font-weight: 600;
+        border-bottom: 2px solid rgba(255,255,255,0.2);
+    }
+
+    /* Celdas */
+    table.tabla-historico td {
+        padding: 14px;
+        text-align: center;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+
+    table.tabla-historico tr:hover {
+        background-color: #14508a;
+    }

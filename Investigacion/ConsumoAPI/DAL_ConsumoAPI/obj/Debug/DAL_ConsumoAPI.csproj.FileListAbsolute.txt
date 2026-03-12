@@ -1,0 +1,6 @@
+C:\Users\efallas\Documents\Esteban U\Programación 4\ConsumoAPI\DAL_ConsumoAPI\bin\Debug\DAL_ConsumoAPI.dll
+C:\Users\efallas\Documents\Esteban U\Programación 4\ConsumoAPI\DAL_ConsumoAPI\bin\Debug\DAL_ConsumoAPI.pdb
+C:\Users\efallas\Documents\Esteban U\Programación 4\ConsumoAPI\DAL_ConsumoAPI\obj\Debug\DAL_ConsumoAPI.csproj.AssemblyReference.cache
+C:\Users\efallas\Documents\Esteban U\Programación 4\ConsumoAPI\DAL_ConsumoAPI\obj\Debug\DAL_ConsumoAPI.csproj.CoreCompileInputs.cache
+C:\Users\efallas\Documents\Esteban U\Programación 4\ConsumoAPI\DAL_ConsumoAPI\obj\Debug\DAL_ConsumoAPI.dll
+C:\Users\efallas\Documents\Esteban U\Programación 4\ConsumoAPI\DAL_ConsumoAPI\obj\Debug\DAL_ConsumoAPI.pdb

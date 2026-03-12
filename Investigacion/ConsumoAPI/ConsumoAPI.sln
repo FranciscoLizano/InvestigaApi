@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL_ConsumoAPI", "PL_ConsumoAPI\PL_ConsumoAPI.csproj", "{367F7FC3-2746-45B5-9AB8-C5A853398CFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_ConsumoAPI", "DAL_ConsumoAPI\DAL_ConsumoAPI.csproj", "{7BCD70B8-79BF-4DD6-B3AF-5201A61CF5BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{367F7FC3-2746-45B5-9AB8-C5A853398CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367F7FC3-2746-45B5-9AB8-C5A853398CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367F7FC3-2746-45B5-9AB8-C5A853398CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367F7FC3-2746-45B5-9AB8-C5A853398CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCD70B8-79BF-4DD6-B3AF-5201A61CF5BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCD70B8-79BF-4DD6-B3AF-5201A61CF5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCD70B8-79BF-4DD6-B3AF-5201A61CF5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCD70B8-79BF-4DD6-B3AF-5201A61CF5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E4A7AF1-AADC-4A71-9E89-44DDC6CF3F48}
+	EndGlobalSection
+EndGlobal
