@@ -1,3 +1,7 @@
+-- Se selecciona la base Master
+USE [master]
+GO
+
 -- Se crea la base de datos [AlquiSoft]
 CREATE DATABASE [AlquiSoft]
 GO
@@ -59,7 +63,7 @@ CREATE TABLE [Usuarios]
     Actividad   VARCHAR(100)    NOT NULL,   -- Como: Propietario de apartamentos, Administrador de bienes raíces,
                                             --  Inversionista inmobiliario, Empresa inmobiliaria, Administrador de condominios
     Estado      CHAR(1)         NOT NULL,
-    Clave       VARCHAR(50)     NOT NULL,
+    Password    VARCHAR(50)     NOT NULL,
 	
 	CONSTRAINT [PK_Usuarios] PRIMARY KEY CLUSTERED
 	(
@@ -89,9 +93,7 @@ CREATE TABLE [Alquileres]
 	CONSTRAINT [PK_Alquileres] PRIMARY KEY CLUSTERED
 	(
 		[Id_Alquiler] DESC
-	),
-
-    CONSTRAINT UQ_Apartamento UNIQUE (Apartamento)
+	)
 )
 GO
 ALTER TABLE [Alquileres] WITH NOCHECK 
