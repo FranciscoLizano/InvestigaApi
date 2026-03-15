@@ -164,7 +164,7 @@ BEGIN TRY
 		BEGIN
 			SELECT @IdUsuario
 			
-			/*				Este proceso se utiliza para el control de la auditoria del sistema					*/
+			/*	Este proceso se utiliza para el control de la auditoria del sistema	*/
 			DECLARE @DSC VARCHAR(MAX)
 			DECLARE @USRNOM VARCHAR(300)
 			DECLARE @ACC CHAR(1)
@@ -179,7 +179,7 @@ BEGIN TRY
 			)
 			SELECT
 			@IdUsuario, @ACC, RTRIM(LTRIM(@DSC)) , GETDATE()
-			/*				Este proceso se utiliza para el control de la auditoria del sistema					*/
+			/*	Este proceso se utiliza para el control de la auditoria del sistema	*/			*/
 
 		END
 		ELSE
@@ -211,7 +211,7 @@ BEGIN TRY
 	BEGIN
 			SELECT @IdUsuario
 			
-			/*				Este proceso se utiliza para el control de la auditoria del sistema					*/
+			/*	Este proceso se utiliza para el control de la auditoria del sistema	*/
 			DECLARE @DSC VARCHAR(MAX)
 			DECLARE @USRNOM VARCHAR(300)
 			DECLARE @ACC CHAR(1)
@@ -226,7 +226,7 @@ BEGIN TRY
 			)
 			SELECT
 			@IdUsuario, @ACC, RTRIM(LTRIM(@DSC)) , GETDATE()
-			/*				Este proceso se utiliza para el control de la auditoria del sistema					*/
+			/*	Este proceso se utiliza para el control de la auditoria del sistema	*/
 	END
 	ELSE
 	BEGIN
