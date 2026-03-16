@@ -179,7 +179,7 @@ BEGIN TRY
 			)
 			SELECT
 			@IdUsuario, @ACC, RTRIM(LTRIM(@DSC)) , GETDATE()
-			/*	Este proceso se utiliza para el control de la auditoria del sistema	*/			*/
+			/*	Este proceso se utiliza para el control de la auditoria del sistema	*/
 
 		END
 		ELSE
