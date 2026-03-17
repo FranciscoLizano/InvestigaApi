@@ -68,7 +68,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ControlAlquileres\frmControlAlquileres.aspx" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\FondoAlquiSoft.jpeg" />
+    <Content Include="images\Logo_AlquiSoft.png" />
+    <Content Include="images\logo_AlquisoftTransparente.png" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.vide.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +92,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\font-awesome.min.css" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

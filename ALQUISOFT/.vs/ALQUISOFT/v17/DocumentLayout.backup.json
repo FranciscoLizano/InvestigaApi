@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\InvestigaApi\\ALQUISOFT\\",
+  "WorkspaceRootPath": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\css\\font-awesome.min.css||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\css\\font-awesome.min.css||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,20 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 37,
+          "SelectedChildIndex": 39,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -23,10 +43,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -50,19 +66,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Bookmark",
@@ -166,11 +174,37 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "font-awesome.min.css",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\css\\font-awesome.min.css",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\css\\font-awesome.min.css",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\css\\font-awesome.min.css",
+              "RelativeToolTip": "PL_ALQUISOFT\\css\\font-awesome.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHELAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-17T23:25:45.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\css\\style.css",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\css\\style.css",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\css\\style.css",
+              "RelativeToolTip": "PL_ALQUISOFT\\css\\style.css",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAiwJABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-17T23:25:18.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmControlAlquileres.aspx",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
               "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
