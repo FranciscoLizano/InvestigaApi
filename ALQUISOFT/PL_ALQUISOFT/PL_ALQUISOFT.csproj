@@ -67,12 +67,54 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ControlAlquileres\assets\css\style-starter.css" />
+    <Content Include="ControlAlquileres\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="ControlAlquileres\assets\images\avatar1.jpg" />
+    <Content Include="ControlAlquileres\assets\images\avatar2.jpg" />
+    <Content Include="ControlAlquileres\assets\images\avatar3.jpg" />
+    <Content Include="ControlAlquileres\assets\images\avatar4.jpg" />
+    <Content Include="ControlAlquileres\assets\images\avatar5.jpg" />
+    <Content Include="ControlAlquileres\assets\images\avatar6.jpg" />
+    <Content Include="ControlAlquileres\assets\images\avatar7.jpg" />
+    <Content Include="ControlAlquileres\assets\images\cart.jpg" />
+    <Content Include="ControlAlquileres\assets\images\content.jpg" />
+    <Content Include="ControlAlquileres\assets\images\dashboard.jpg" />
+    <Content Include="ControlAlquileres\assets\images\desk.jpg" />
+    <Content Include="ControlAlquileres\assets\images\down.png" />
+    <Content Include="ControlAlquileres\assets\images\logo.png" />
+    <Content Include="ControlAlquileres\assets\images\people1.jpg" />
+    <Content Include="ControlAlquileres\assets\images\people2.jpg" />
+    <Content Include="ControlAlquileres\assets\images\people3.jpg" />
+    <Content Include="ControlAlquileres\assets\images\people4.jpg" />
+    <Content Include="ControlAlquileres\assets\images\Preloader_11.gif" />
+    <Content Include="ControlAlquileres\assets\images\profileimg-big.jpg" />
+    <Content Include="ControlAlquileres\assets\images\profileimg.jpg" />
+    <Content Include="ControlAlquileres\assets\images\sort_asc.png" />
+    <Content Include="ControlAlquileres\assets\images\sort_both.png" />
+    <Content Include="ControlAlquileres\assets\images\sort_desc.png" />
+    <Content Include="ControlAlquileres\assets\images\team.jpg" />
+    <Content Include="ControlAlquileres\assets\images\team2.jpg" />
+    <Content Include="ControlAlquileres\assets\images\team3.jpg" />
+    <Content Include="ControlAlquileres\assets\images\team4.jpg" />
+    <Content Include="ControlAlquileres\assets\images\template1.jpg" />
+    <Content Include="ControlAlquileres\assets\images\template2.jpg" />
+    <Content Include="ControlAlquileres\assets\js\bar.js" />
+    <Content Include="ControlAlquileres\assets\js\bootstrap.min.js" />
+    <Content Include="ControlAlquileres\assets\js\Chart.min.js" />
+    <Content Include="ControlAlquileres\assets\js\jquery-1.10.2.min.js" />
+    <Content Include="ControlAlquileres\assets\js\jquery-3.3.1.min.js" />
+    <Content Include="ControlAlquileres\assets\js\jquery.nicescroll.js" />
+    <Content Include="ControlAlquileres\assets\js\linechart.js" />
+    <Content Include="ControlAlquileres\assets\js\modernizr.js" />
+    <Content Include="ControlAlquileres\assets\js\scripts.js" />
+    <Content Include="ControlAlquileres\assets\js\utils.js" />
     <Content Include="Global.asax" />
     <Content Include="JavaScript\InicioSesion.js" />
     <Content Include="JavaScript\jquery.cookie.js" />
     <Content Include="login\css\font-awesome.min.css" />
     <Content Include="login\css\style.css" />
     <Content Include="login\fonts\fontawesome-webfont.svg" />
+    <Content Include="ControlAlquileres\frmControlAlquileres.aspx" />
     <Content Include="login\frmInicioSesion.aspx" />
     <Content Include="login\images\ASTRONAUT.png" />
     <Content Include="login\images\ASTRONAUT2.jpg" />
@@ -93,6 +135,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="ControlAlquileres\frmControlAlquileres.aspx.cs">
+      <DependentUpon>frmControlAlquileres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlAlquileres\frmControlAlquileres.aspx.designer.cs">
+      <DependentUpon>frmControlAlquileres.aspx</DependentUpon>
+    </Compile>
     <Compile Include="login\frmInicioSesion.aspx.cs">
       <DependentUpon>frmInicioSesion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -109,6 +158,11 @@
     <Content Include="login\fonts\fontawesome-webfont.woff2" />
     <Content Include="login\fonts\FontAwesome.otf" />
     <Content Include="login\images\SpaceOps.psd" />
+    <Content Include="ControlAlquileres\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="ControlAlquileres\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="ControlAlquileres\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="ControlAlquileres\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="ControlAlquileres\assets\fonts\FontAwesome.otf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -119,7 +173,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="ControlAlquileres\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL_ALQUISOFT\BLL_ALQUISOFT.csproj">

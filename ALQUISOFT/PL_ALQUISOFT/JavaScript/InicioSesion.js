@@ -61,7 +61,7 @@ function InicioSesion() {
                     });
 
                     setTimeout(function () {
-                        location.href = "../TaskPlanner/frmTaskPlanner.aspx";
+                        location.href = "../ControlAlquileres/frmControlAlquileres.aspx";
                     }, 4500);
                 }
                 else {
