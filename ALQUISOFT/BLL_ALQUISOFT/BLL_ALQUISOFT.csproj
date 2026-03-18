@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BD\cls_BD_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ControlAlquileres\cls_Usuarios_BLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL_ALQUISOFT\DAL_ALQUISOFT.csproj">
@@ -50,9 +52,6 @@
       <Name>DAL_ALQUISOFT</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ControlAlquileres\" />
-    <Folder Include="DB\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

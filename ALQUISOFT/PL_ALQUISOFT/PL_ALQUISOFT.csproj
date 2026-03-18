@@ -67,37 +67,48 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ControlAlquileres\frmControlAlquileres.aspx" />
-    <Content Include="css\style.css" />
-    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="images\FondoAlquiSoft.jpeg" />
-    <Content Include="images\Logo_AlquiSoft.png" />
-    <Content Include="images\logo_AlquisoftTransparente.png" />
-    <Content Include="js\jquery.min.js" />
-    <Content Include="js\jquery.vide.js" />
+    <Content Include="JavaScript\InicioSesion.js" />
+    <Content Include="JavaScript\jquery.cookie.js" />
+    <Content Include="login\css\font-awesome.min.css" />
+    <Content Include="login\css\style.css" />
+    <Content Include="login\fonts\fontawesome-webfont.svg" />
+    <Content Include="login\frmInicioSesion.aspx" />
+    <Content Include="login\images\ASTRONAUT.png" />
+    <Content Include="login\images\ASTRONAUT2.jpg" />
+    <Content Include="login\images\FondoAlquiSoft.jpeg" />
+    <Content Include="login\images\freelan.mp4" />
+    <Content Include="login\images\LogoUAM.png" />
+    <Content Include="login\images\LogoUAM_W.png" />
+    <Content Include="login\images\Logo_AlquiSoft.png" />
+    <Content Include="login\images\logo_AlquisoftTransparente.png" />
+    <Content Include="login\images\Logo_SpaceOps.png" />
+    <Content Include="login\images\SPACEOPS.png" />
+    <Content Include="login\images\SPACEOPS_2.png" />
+    <Content Include="login\js\jquery.min.js" />
+    <Content Include="login\js\jquery.vide.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ControlAlquileres\frmControlAlquileres.aspx.cs">
-      <DependentUpon>frmControlAlquileres.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ControlAlquileres\frmControlAlquileres.aspx.designer.cs">
-      <DependentUpon>frmControlAlquileres.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="login\frmInicioSesion.aspx.cs">
+      <DependentUpon>frmInicioSesion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login\frmInicioSesion.aspx.designer.cs">
+      <DependentUpon>frmInicioSesion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\font-awesome.min.css" />
-    <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="fonts\fontawesome-webfont.ttf" />
-    <Content Include="fonts\fontawesome-webfont.woff" />
-    <Content Include="fonts\fontawesome-webfont.woff2" />
-    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="login\fonts\fontawesome-webfont.eot" />
+    <Content Include="login\fonts\fontawesome-webfont.ttf" />
+    <Content Include="login\fonts\fontawesome-webfont.woff" />
+    <Content Include="login\fonts\fontawesome-webfont.woff2" />
+    <Content Include="login\fonts\FontAwesome.otf" />
+    <Content Include="login\images\SpaceOps.psd" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -108,8 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="JavaScript\" />
-    <Folder Include="Models\" />
+    <Folder Include="ControlAlquileres\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLL_ALQUISOFT\BLL_ALQUISOFT.csproj">

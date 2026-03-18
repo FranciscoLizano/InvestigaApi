@@ -1,0 +1,106 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmInicioSesion.aspx.cs" Inherits="PL_SPACEOPS.Login.frmInicioSesion" %>
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Sistema de administración de alquileres | AlquiSoft</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <!-- //Meta tag Keywords -->
+    <link href="//fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!--/Style-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!--//Style-CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all">
+
+<style>
+
+    </style>
+		
+</head>
+
+<body style="margin:0; background-image:url('images/FondoAlquiSoft.jpeg');background-size:cover;background-repeat:no-repeat;">
+    <!-- Logo arriba izquierda -->
+    <img src="images/Logo_AlquisoftTransparente.png" style="position:absolute; top:-70px;left:20px;width:180px;">
+
+<div id="block" class="w3lvide-content""></div>
+            <!-- Formulario de Inicio de Sesión -->
+            <div id="frmlogin" class="workinghny-form-grid">
+                <div class="main-hotair glass">
+                    <div class="content-wthree" style="width: 80%;align-content: center;content: -moz-repeating-radial-gradient;justify-content: center;align-items: center;display: grid;margin-left: 9%;margin-top: 8%;margin-bottom: 8%;">
+						<div class="logo" style="display: flex;justify-content: center;align-items: center;height: 100px;">
+							<img src="images/Logo_AlquisoftTransparente.png" alt="Your logo" title="Your logo" class="img-fluid" style="height:300px;" />
+						</div>
+                        <h1 style="margin-top:35px">Inicio de Sesión</h1>
+                        <form action="javascript: InicioSesion()" method="post">
+                            <input id="Eml_Login" type="email" class="text" name="text" placeholder="Email de Usuario" required="" autofocus>
+                            <input id="Pwd_Login" type="password" class="password" name="password" placeholder="Contraseña de Usuario" required="" autofocus>
+							<button class="btn" type="submit"style="background-color: #78be84;">Iniciar Sesión</button>
+                        </form>
+						<button id="btnRegistro" class="btn" style="background-color: #37a1ce ;">Registrar Usuario</button>
+                        
+                    </div>
+                </div>
+				<!-- copyright-->
+				<div class="copyright text-center">
+					<p class="copy-footer-29">© 2026 Sistema de administración de alquileres | AlquiSoft</p>
+				</div>
+		   </div>
+		   
+			<!-- Formulario de Registro (Oculto por defecto) -->
+			<div id="frmRegistro" class="workinghny-form-grid hidden">
+                <div class="main-hotair glass">
+                    <div class="content-wthree" style="width: 80%;align-content: center;content: -moz-repeating-radial-gradient;justify-content: center;align-items: center;display: grid;margin-left: 9%;margin-top: 8%;margin-bottom: 8%;">
+                        <div class="logo" style="display: flex;justify-content: center;align-items: center;height: 100px;">
+							<img src="images/Logo_AlquisoftTransparente.png" alt="Your logo" title="Your logo" class="img-fluid" style="height:300px;" />
+						</div>
+						<h1 style="margin-top:35px">Registro de Usuarios</h1>
+                        <form action="javascript: RegistroUsuario()" method="post">
+                            <input id="Nom_Registro" type="text" class="text" name="username" placeholder="Nombre de Usuario" required>
+							<input id="Eml_Registro" type="email" class="text" name="email" placeholder="Email de Usuario" required>
+							<input id="Pwd_Registro" type="password" class="password" name="password" placeholder="Contraseña de Usuario" required>
+							<select id="Esp_Registro" class="text" required>
+								<option value="" disabled selected>Rol</option>
+
+								<!-- Áreas Tecnológicas -->
+								<option value="propietario">Propietario</option>
+								<option value="admin">Administrador</option>
+							</select>
+                            <button class="btn" type="submit"  style="background-color: #78be84;">Crear Cuenta de Usuario</button>
+                        </form>
+						<button id="btnRegresar" class="btn"style="background-color: #37a1ce ;">Regresar </button>
+                    </div>
+                </div>
+				<!-- copyright-->
+				<div class="copyright text-center">
+					<p class="copy-footer-29">© 2026 Sistema de administración de alquileres | AlquiSoft</p>
+				</div>
+		   </div>
+    </div>
+
+
+	<!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btnRegistro").click(function () {
+                $("#frmlogin").fadeOut(500, function () {
+                    $("#frmRegistro").fadeIn(500);
+                });
+            });
+
+            $("#btnRegresar").click(function () {
+                $("#frmRegistro").fadeOut(500, function () {
+                    $("#frmlogin").fadeIn(500);
+                });
+            });
+        });
+    </script>
+  
+	<script src="../JavaScript/jquery.cookie.js"></script>
+    <script src="../JavaScript/InicioSesion.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
