@@ -62,13 +62,13 @@ BEGIN
 	)
 	VALUES
 	(
-	'Libres'
+	'Sin Iniciar'
 	),
 	(
-	'Ocupados'
+	'Iniciado'
 	),
 	(
-	'Mantenimiento'
+	'Finalizado'
 	)
 	
 	/*	Inserta las condiciones de pago	*/

@@ -365,7 +365,7 @@ GO
 CREATE PROCEDURE [dbo].[USP_Listar_Alquileres]
 (
 @IdUsuario int,
-@Titulo VARCHAR(50),
+@Apartamento VARCHAR(50),
 @Estado int
 )
 AS BEGIN 
@@ -384,7 +384,7 @@ AS BEGIN
   INNER JOIN Categoria_Apartamento CATA ON CATA.Id_Categoria = ALQ.Id_Categoria
   INNER JOIN Condicion_Pago CONP ON CONP.Id_CondPago = ALQ.Id_Estado
   INNER JOIN Estado_Alquileres EST ON EST.Id_Estado = ALQ.Id_Estado
-  WHERE LTRIM(RTRIM(ALQ.[Apartamento])) LIKE '%' + LTRIM(RTRIM(@Titulo)) +'%'
+  WHERE LTRIM(RTRIM(ALQ.[Apartamento])) LIKE '%' + LTRIM(RTRIM(@Apartamento)) +'%'
 		AND ALQ.[Id_Usuario]=@IdUsuario 
 		AND ALQ.[Id_Estado] = CASE WHEN @Estado = 0 THEN ALQ.[Id_Estado] ELSE @Estado END
 END
@@ -429,7 +429,12 @@ CREATE PROCEDURE [dbo].[USP_Insertar_Alquileres]
 )
 AS BEGIN 
 BEGIN TRY
-	IF NOT EXISTS(SELECT Id_Alquiler FROM Alquileres WHERE Apartamento=@Apartamento AND Id_Usuario=@IdUsuario)
+	IF NOT EXISTS(SELECT Id_Alquiler 
+					FROM Alquileres 
+					WHERE Apartamento=@Apartamento 
+							AND Id_Usuario=@IdUsuario						
+							AND CAST(GETDATE() AS DATE) BETWEEN CAST(@Fecha_Inicio AS DATE) AND CAST(@Fecha_Fin AS DATE)) 
+	-- Evaluar fecha actual no esta dentro del rango de otro alquiler que exista 
 	BEGIN
 		INSERT INTO  [dbo].[Alquileres]
 		( 
@@ -517,7 +522,9 @@ SET DATEFORMAT DMY
 					FROM Alquileres 
 					WHERE	Apartamento=@Apartamento 
 							AND Id_Usuario=@IdUsuario 
-							AND Id_Alquiler NOT IN (@IdAlquiler))
+							AND Id_Alquiler NOT IN (@IdAlquiler)						
+							AND CAST(GETDATE() AS DATE) BETWEEN CAST(@Fecha_Inicio AS DATE) AND CAST(@Fecha_Fin AS DATE))
+	-- Evaluar fecha actual no esta dentro del rango de otro alquiler que exista 
 	BEGIN
 		UPDATE [dbo].[Alquileres]
 		SET
