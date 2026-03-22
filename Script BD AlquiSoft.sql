@@ -85,7 +85,7 @@ CREATE TABLE [Alquileres]
     Fecha_Registro      DATE DEFAULT (getdate()),
     Fecha_Inicio        DATE,
     Fecha_Fin           DATE,
-    Mensualidad         DECIMAL(10,2)   NOT NULL,
+    Mensualidad         MONEY			NOT NULL,
     Id_Categoria        INT             NOT NULL,
     Id_Usuario          INT             NOT NULL,
     Id_Estado           INT             NOT NULL,
