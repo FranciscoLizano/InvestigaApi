@@ -85,7 +85,7 @@ function InicioSesion() {
         }
     });
 }
-
+    
 
 function RegistroUsuario() {
     //Definimos el arreglo que contiene los valores del objeto de parametros de js que vamos a enviar al code behind
@@ -103,7 +103,7 @@ function RegistroUsuario() {
     //A través de métodos AJAX de JQUERY vamos a consumir el web method del code behinf
     //Indicamos el nombre del web mehotd y el formulario en donde está ese web method
     jQuery.ajax({
-        type: "POST",
+        type: "POST",   
         url: "frmInicioSesion.aspx/RegistroUsuarios",
         data: parametros,
         contentType: "application/json; charset=utf-8",
@@ -165,3 +165,91 @@ function RegistroUsuario() {
         }
     });
 }
+
+
+function cerrarSesion() {
+    //Definimos el arreglo que contiene los valores del objeto de Parámetros que vamos a enviar al code behind
+    var obj_Parametros_JS = new Array();
+
+    //Definir los valores de cada item o posición del arreglo
+    obj_Parametros_JS[0] = $.cookie("USRUNI");
+    obj_Parametros_JS[1] = $.cookie("USRNOM");
+
+    //Crear la estructura de parámetros en formato JSON
+    var parametros = JSON.stringify({ 'obj_Parametros_JS': obj_Parametros_JS });
+
+    //A través de métodos AJAX de JQUERY vamos a invocar o consumir el code behind del formulario (web Methods)
+    //Aquí lo que indicamos es cuál va a ser el nombre del web method que vamos a ejecutar del code behind
+    jQuery.ajax({
+        type: "POST",
+        url: "/Login/frmInicioSesion.aspx/CierraSesionUsuarios",
+        data: parametros,
+        contentType: "application/json; chartset=utf-8",
+        dataType: "json",
+        cache: false,
+        success: function (msg) {
+            var res = msg.d;
+
+            if (res === undefined) {
+
+                Swal.fire({
+                    position: 'center-center',
+                    icon: "error",
+                    title: "Error en la conexión",
+                    text: "Error de conexión a la base de datos"
+                });
+
+            }
+            else {
+
+                var arreglo = new Array();
+                var str;
+
+                str = res;
+
+                //Método que separa la información de respuesta cada vez que encuentre la palabra clave <SPLITER>
+                arreglo = (str.split("<SPLITER>"));
+
+                var resultado = arreglo[0];
+
+                if (resultado != "0") {
+
+
+                    $.cookie('USRUNI', null, { expires: -1, path: '/', domain: g_Dominio });
+                    $.cookie('USREML', null, { expires: -1, path: '/', domain: g_Dominio });
+                    $.cookie('USRNOM', null, { expires: -1, path: '/', domain: g_Dominio });
+
+                    Swal.fire({
+                        position: 'center-center',
+                        icon: "success",
+                        title: "Cierre de Sesión",
+                        text: "Gracias " + obj_Parametros_JS[1] + ". Hasta pronto!!!",
+                        showConfirmButton: false,
+                        timer: 4500,
+                        timerProgressBar: true
+                    });
+
+                    setTimeout(function () {
+                        location.href = "../Login/frmInicioSesion.aspx";
+                    }, 4500);
+
+                }
+                else {
+                    Swal.fire({
+                        position: 'center-center',
+                        icon: "info",
+                        title: "Cierre de Sesión",
+                        text: "No se pudo cerrar la sesión. Intente más tarde"
+                    });
+                }
+            }
+        },
+        failure: function (msg) {
+
+        },
+        error: function (msg) {
+
+        }
+    });
+}
+

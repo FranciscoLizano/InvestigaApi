@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace PL_SPACEOPS.Login
+namespace PL_ALQUISOFT.Login
 {
 
 

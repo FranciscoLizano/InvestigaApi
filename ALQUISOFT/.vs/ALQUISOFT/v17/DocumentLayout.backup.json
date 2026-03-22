@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\InvestigaApi\\ALQUISOFT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\dal_alquisoft\\controlalquileres\\cls_usuarios_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|solutionrelative:dal_alquisoft\\controlalquileres\\cls_usuarios_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\dal_alquisoft\\controlalquileres\\cls_estado_alquileres_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|solutionrelative:dal_alquisoft\\controlalquileres\\cls_estado_alquileres_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\login\\frminiciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\login\\frminiciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\dal_alquisoft\\controlalquileres\\cls_condicion_pago_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|solutionrelative:dal_alquisoft\\controlalquileres\\cls_condicion_pago_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\dal_alquisoft\\controlalquileres\\cls_categoria_apartamento_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|solutionrelative:dal_alquisoft\\controlalquileres\\cls_categoria_apartamento_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\login\\frminiciosesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\login\\frminiciosesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\dal_alquisoft\\controlalquileres\\cls_auditoria_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|solutionrelative:dal_alquisoft\\controlalquileres\\cls_auditoria_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\javascript\\iniciosesion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\javascript\\iniciosesion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\dal_alquisoft\\controlalquileres\\cls_alquileres_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}|DAL_ALQUISOFT\\DAL_ALQUISOFT.csproj|solutionrelative:dal_alquisoft\\controlalquileres\\cls_alquileres_dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 37,
+          "SelectedChildIndex": 42,
           "Children": [
             {
               "$type": "Bookmark",
@@ -186,80 +190,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "cls_Usuarios_DAL.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Usuarios_DAL.cs",
-              "RelativeDocumentMoniker": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Usuarios_DAL.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Usuarios_DAL.cs",
-              "RelativeToolTip": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Usuarios_DAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "frmControlAlquileres.aspx.cs",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T02:08:17.881Z",
+              "WhenOpened": "2026-03-22T03:46:32.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "cls_Estado_Alquileres_DAL.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Estado_Alquileres_DAL.cs",
-              "RelativeDocumentMoniker": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Estado_Alquileres_DAL.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Estado_Alquileres_DAL.cs",
-              "RelativeToolTip": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Estado_Alquileres_DAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T02:08:09.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "cls_Condicion_Pago_DAL.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Condicion_Pago_DAL.cs",
-              "RelativeDocumentMoniker": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Condicion_Pago_DAL.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Condicion_Pago_DAL.cs",
-              "RelativeToolTip": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Condicion_Pago_DAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T02:08:06.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "cls_Categoria_Apartamento_DAL.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Categoria_Apartamento_DAL.cs",
-              "RelativeDocumentMoniker": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Categoria_Apartamento_DAL.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Categoria_Apartamento_DAL.cs",
-              "RelativeToolTip": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Categoria_Apartamento_DAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T02:07:40.226Z",
+              "Title": "frmInicioSesion.aspx",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "RelativeToolTip": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-22T03:41:50.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "cls_Auditoria_DAL.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Auditoria_DAL.cs",
-              "RelativeDocumentMoniker": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Auditoria_DAL.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Auditoria_DAL.cs",
-              "RelativeToolTip": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Auditoria_DAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T02:07:38.505Z",
+              "Title": "InicioSesion.js",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\InicioSesion.js",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\InicioSesion.js",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\InicioSesion.js",
+              "RelativeToolTip": "PL_ALQUISOFT\\JavaScript\\InicioSesion.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-22T03:18:06.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\Web.config",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
+              "RelativeToolTip": "PL_ALQUISOFT\\Web.config",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-22T02:36:13.844Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "cls_Alquileres_DAL.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_DAL.cs",
-              "RelativeDocumentMoniker": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_DAL.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\DAL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_DAL.cs",
-              "RelativeToolTip": "DAL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_DAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ControlAlquileres.js",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "RelativeToolTip": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-22T02:21:49.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmControlAlquileres.aspx",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-22T02:21:00.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmInicioSesion.aspx.cs",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
+              "RelativeToolTip": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T02:07:36.578Z",
+              "WhenOpened": "2026-03-22T02:17:09.757Z",
               "EditorCaption": ""
             }
           ]

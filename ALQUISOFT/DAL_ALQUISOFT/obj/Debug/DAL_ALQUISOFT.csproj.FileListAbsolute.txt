@@ -1,12 +1,12 @@
-C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.dll
-C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.pdb
-C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.csproj.AssemblyReference.cache
-C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.csproj.CoreCompileInputs.cache
-C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.dll
-C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.pdb
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\DAL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.dll
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\DAL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.pdb
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.csproj.AssemblyReference.cache
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.csproj.CoreCompileInputs.cache
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.dll
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.pdb
+C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.dll
+C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.pdb
+C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.csproj.AssemblyReference.cache
+C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.csproj.CoreCompileInputs.cache
+C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.dll
+C:\InvestigaApi\ALQUISOFT\DAL_ALQUISOFT\obj\Debug\DAL_ALQUISOFT.pdb

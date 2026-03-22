@@ -109,6 +109,7 @@
     <Content Include="ControlAlquileres\assets\js\scripts.js" />
     <Content Include="ControlAlquileres\assets\js\utils.js" />
     <Content Include="Global.asax" />
+    <Content Include="JavaScript\ControlAlquileres.js" />
     <Content Include="JavaScript\InicioSesion.js" />
     <Content Include="JavaScript\jquery.cookie.js" />
     <Content Include="login\css\font-awesome.min.css" />

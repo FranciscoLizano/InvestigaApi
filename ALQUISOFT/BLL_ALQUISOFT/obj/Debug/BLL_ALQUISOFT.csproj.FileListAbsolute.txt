@@ -1,12 +1,3 @@
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\BLL_ALQUISOFT.dll
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\BLL_ALQUISOFT.pdb
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.dll
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.pdb
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.csproj.AssemblyReference.cache
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.csproj.CoreCompileInputs.cache
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQU.2817542F.Up2Date
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.dll
-C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.pdb
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\BLL_ALQUISOFT.dll
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\BLL_ALQUISOFT.pdb
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.dll
@@ -16,3 +7,12 @@ C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQU
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQU.2817542F.Up2Date
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.dll
 C:\Users\efallas\Documents\Esteban U\Programación 4\PROYECTO INVESTIGACION\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.pdb
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\BLL_ALQUISOFT.dll
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\BLL_ALQUISOFT.pdb
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.dll
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\bin\Debug\DAL_ALQUISOFT.pdb
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.csproj.AssemblyReference.cache
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.csproj.CoreCompileInputs.cache
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQU.2817542F.Up2Date
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.dll
+C:\InvestigaApi\ALQUISOFT\BLL_ALQUISOFT\obj\Debug\BLL_ALQUISOFT.pdb

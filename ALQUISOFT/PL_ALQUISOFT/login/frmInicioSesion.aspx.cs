@@ -8,7 +8,7 @@ using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace PL_SPACEOPS.Login
+namespace PL_ALQUISOFT.Login
 {
     public partial class frmInicioSesion : System.Web.UI.Page
     {
@@ -16,6 +16,7 @@ namespace PL_SPACEOPS.Login
         {
 
         }
+
         [WebMethod]
         public static string InicioSesionUsuarios(List<string> obj_Parametros_JS)
         {
@@ -107,5 +108,41 @@ namespace PL_SPACEOPS.Login
                 throw ex;
             }
         }
+
+
+        [WebMethod]
+        public static string CierraSesionUsuarios(List<string> obj_Parametros_JS)
+        {
+            try
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Usuarios_DAL obj_Usuarios_DAL = new cls_Usuarios_DAL();
+                cls_Usuarios_BLL obj_Usuarios_BLL = new cls_Usuarios_BLL();
+
+                /*Descomponemos o extraemos los valores del objeto que nos envía el JS y 
+                 * lo asignamos a los atributos del objeto con el que estamos trabajando*/
+                obj_Usuarios_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
+
+
+                /*Ejecutamos en lógica de negocio el proceso o la acción necesaria*/
+                obj_Usuarios_BLL.Cerrar_Sesion_Usuarios(ref obj_Usuarios_DAL);
+
+                /*Recuperamos los valores y los evaluamos (Valores SCALAR y / o valores de respuesta de BD */
+                if (obj_Usuarios_DAL.sValorScalar != "0")
+                {
+                    _mensaje = obj_Usuarios_DAL.sValorScalar;
+                }
+
+                return _mensaje;
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
 }

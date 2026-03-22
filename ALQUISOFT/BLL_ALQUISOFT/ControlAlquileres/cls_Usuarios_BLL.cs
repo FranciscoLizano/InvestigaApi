@@ -59,7 +59,6 @@ namespace BLL_AlQUISOFT.ControlAlquileres
 			}
         }
 
-
 		public void Obtiene_Informacion_Usuario(ref cls_Usuarios_DAL obj_Usuarios_DAL)
 		{
 			try
@@ -104,8 +103,6 @@ namespace BLL_AlQUISOFT.ControlAlquileres
             
         }
 
-
-
         public void Registrar_Usuarios(ref cls_Usuarios_DAL obj_Usuarios_DAL)
         {
             try
@@ -139,6 +136,51 @@ namespace BLL_AlQUISOFT.ControlAlquileres
 
                 /*Validar los resultados o la respuesta de bd*/
                 /*Si el mensaje de error de base de datos es vacío..... entonces eso significa que todo salió de forma correcta y podemos recuperar los valores*/
+                if (obj_BD_DAL.sMsjErrorBD == string.Empty)
+                {
+                    obj_Usuarios_DAL.sMSJError = obj_BD_DAL.sMsjErrorBD;
+                    obj_Usuarios_DAL.sValorScalar = obj_BD_DAL.sValorScalar;
+                }
+                else
+                {
+                    obj_Usuarios_DAL.sMSJError = obj_BD_DAL.sMsjErrorBD;
+                    obj_Usuarios_DAL.sValorScalar = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void Cerrar_Sesion_Usuarios(ref cls_Usuarios_DAL obj_Usuarios_DAL)
+        {
+            try
+            {
+                /*Objetos para comunicación al ámbito de BD (Siempre los vamos a necesitar)*/
+                cls_BD_DAL obj_BD_DAL = new cls_BD_DAL();    //Objeto de acceso a datos de BD
+                cls_BD_BLL obj_BD_BLL = new cls_BD_BLL();   //Objeto de lógica de negocio de BD
+
+                /*Dar forma al atributo de DataTable de Parametros del Objeto con el que estamos trabajando*/
+                obj_Usuarios_DAL.dtParametros = null;
+                obj_Usuarios_DAL.dtParametros = obj_BD_BLL.ObtieneDTParametros(obj_Usuarios_DAL.dtParametros);
+
+                //agregar los parámetros que requiere el procedimiento almacenado
+                //Regla: orden de valores del parámetro ==> Nombre, Código de Tipo de Dato, Valor(atributo del objeto)
+                obj_Usuarios_DAL.dtParametros.Rows.Add("@IdUsuario", "1", obj_Usuarios_DAL.iId_Usuario);
+
+                /*Definimos el nombre del Key que contiene el valor del procedimiento almacenado de BD*/
+                obj_BD_DAL.sNomSP = ConfigurationManager.AppSettings["SP_CierraSesion_Usuarios"];
+                /*Definimos el tipo de accción que vamos a ejecutar (SCALAR o NORMAL)*/
+                obj_BD_DAL.sIndAxn = "SCALAR";
+                /*Le asignamos al DT Parametros del objeto de BD la misma lista de parametros que construimos para el objeto con el que estamos trabajando*/
+                obj_BD_DAL.DT_Parametros = obj_Usuarios_DAL.dtParametros;
+
+                /*Ejecutar en base de datos la sentencia o instrucción en SQL*/
+                obj_BD_BLL.EjecutaProcesosComando(ref obj_BD_DAL);
+
+                /*Validar los resultados*/
+                //Si el mensaje de error de BD es vacío... entonces quiere decir que todo salió de forma correcta y podemos recuperar los valores
                 if (obj_BD_DAL.sMsjErrorBD == string.Empty)
                 {
                     obj_Usuarios_DAL.sMSJError = obj_BD_DAL.sMsjErrorBD;

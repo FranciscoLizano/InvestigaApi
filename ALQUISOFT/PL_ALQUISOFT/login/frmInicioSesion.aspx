@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmInicioSesion.aspx.cs" Inherits="PL_SPACEOPS.Login.frmInicioSesion" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmInicioSesion.aspx.cs" Inherits="PL_ALQUISOFT.Login.frmInicioSesion" %>
 
 <!DOCTYPE html>
 <html lang="zxx">

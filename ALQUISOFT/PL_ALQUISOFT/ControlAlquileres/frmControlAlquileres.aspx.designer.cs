@@ -7,7 +7,7 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace PL_ALQUISOFT.login
+namespace PL_ALQUISOFT.ControlAlquileres
 {
 
 

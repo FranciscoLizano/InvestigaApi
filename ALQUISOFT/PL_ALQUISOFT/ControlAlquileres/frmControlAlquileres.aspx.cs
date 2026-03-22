@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace PL_ALQUISOFT.login
+namespace PL_ALQUISOFT.ControlAlquileres
 {
     public partial class frmControlAlquileres : System.Web.UI.Page
     {

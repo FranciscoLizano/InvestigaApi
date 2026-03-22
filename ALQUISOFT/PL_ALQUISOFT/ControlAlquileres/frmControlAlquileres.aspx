@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmControlAlquileres.aspx.cs" Inherits="PL_ALQUISOFT.login.frmControlAlquileres" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="frmControlAlquileres.aspx.cs" Inherits="PL_ALQUISOFT.ControlAlquileres.frmControlAlquileres" %>
 
 
 <!doctype html>
@@ -198,7 +198,7 @@
             <h3>Listado de Tareas <span></span></h3>
         </div>
         <div class="card-body">
-                <table id="tblTareas">
+            <table id="tblTareas">
                 <!-- Definición de tabla aquí -->
             </table>
         </div>
