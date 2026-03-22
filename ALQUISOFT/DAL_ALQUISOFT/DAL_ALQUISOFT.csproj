@@ -42,6 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD\cls_BD_DAL.cs" />
+    <Compile Include="ControlAlquileres\cls_Alquileres_DAL.cs" />
+    <Compile Include="ControlAlquileres\cls_Auditoria_DAL.cs" />
+    <Compile Include="ControlAlquileres\cls_Categoria_Apartamento_DAL.cs" />
+    <Compile Include="ControlAlquileres\cls_Condicion_Pago_DAL.cs" />
+    <Compile Include="ControlAlquileres\cls_Estado_Alquileres_DAL.cs" />
     <Compile Include="ControlAlquileres\cls_Usuarios_DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
