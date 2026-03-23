@@ -431,9 +431,9 @@ AS BEGIN
 BEGIN TRY
 	IF NOT EXISTS(SELECT Id_Alquiler 
 					FROM Alquileres 
-					WHERE Apartamento=@Apartamento 
+					WHERE Apartamento=RTRIM(LTRIM(@Apartamento)) 
 							AND Id_Usuario=@IdUsuario						
-							AND CAST(GETDATE() AS DATE) BETWEEN CAST(@Fecha_Inicio AS DATE) AND CAST(@Fecha_Fin AS DATE)) 
+							AND Fecha_Fin > @Fecha_Inicio)
 	-- Evaluar fecha actual no esta dentro del rango de otro alquiler que exista 
 	BEGIN
 		INSERT INTO  [dbo].[Alquileres]
@@ -518,13 +518,13 @@ CREATE PROCEDURE [dbo].[USP_Modificar_Alquiler]
 AS BEGIN 
 BEGIN TRY
 SET DATEFORMAT DMY
-	IF NOT EXISTS(SELECT Id_Alquiler 
+	IF EXISTS(SELECT Id_Alquiler 
 					FROM Alquileres 
-					WHERE	Apartamento=@Apartamento 
+					WHERE	Apartamento=RTRIM(LTRIM(@Apartamento)) 
 							AND Id_Usuario=@IdUsuario 
-							AND Id_Alquiler NOT IN (@IdAlquiler)						
-							AND CAST(GETDATE() AS DATE) BETWEEN CAST(@Fecha_Inicio AS DATE) AND CAST(@Fecha_Fin AS DATE))
-	-- Evaluar fecha actual no esta dentro del rango de otro alquiler que exista 
+							AND Id_Alquiler=(@IdAlquiler)						
+							AND Fecha_Fin>@Fecha_Inicio)
+							-- Evaluar fecha inicio esta dentro del rango de un alquiler que exista 
 	BEGIN
 		UPDATE [dbo].[Alquileres]
 		SET
