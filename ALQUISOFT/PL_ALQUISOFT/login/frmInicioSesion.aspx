@@ -62,11 +62,14 @@
 							<input id="Eml_Registro" type="email" class="text" name="email" placeholder="Email de Usuario" required>
 							<input id="Pwd_Registro" type="password" class="password" name="password" placeholder="Contraseña de Usuario" required>
 							<select id="Esp_Registro" class="text" required>
-								<option value="" disabled selected>Rol</option>
+								<option value="" disabled selected>Rol o Función</option>
 
 								<!-- Áreas Tecnológicas -->
-								<option value="propietario">Propietario</option>
-								<option value="admin">Administrador</option>
+								<option value="propietario">Propietario de apartamentos</option>
+								<option value="admin">Administrador de bienes raíces</option>
+								<option value="invers">Inversionista inmobiliario</option>
+								<option value="empre">Empresa inmobiliaria</option>
+								<option value="condom">Administrador de condominios</option>
 							</select>
                             <button class="btn" type="submit"  style="background-color: #78be84;">Crear Cuenta de Usuario</button>
                         </form>

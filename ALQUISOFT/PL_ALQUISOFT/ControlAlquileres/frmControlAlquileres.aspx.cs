@@ -180,7 +180,7 @@ namespace PL_ALQUISOFT.ControlAlquileres
                                         "<td>" + obj_Alquileres_DAL.dtDatos.Rows[i][4].ToString() + "</td>" +
                                         "<td>" + Convert.ToDateTime(obj_Alquileres_DAL.dtDatos.Rows[i][5].ToString()).ToShortDateString() + "</td>" +
                                         "<td>" + Convert.ToDateTime(obj_Alquileres_DAL.dtDatos.Rows[i][6].ToString()).ToShortDateString() + "</td>" +
-                                        "<td>" + Convert.ToDouble(obj_Alquileres_DAL.dtDatos.Rows[i][7].ToString()) + "</td>" +
+                                        "<td>" + Convert.ToDouble(obj_Alquileres_DAL.dtDatos.Rows[i][7].ToString()).ToString("C") + "</td>" +
                                         "<td>" + obj_Alquileres_DAL.dtDatos.Rows[i][8].ToString() + "</td>" +
                                         "<td>" + obj_Alquileres_DAL.dtDatos.Rows[i][9].ToString() + "</td>" +
                                         "<td>" + obj_Alquileres_DAL.dtDatos.Rows[i][10].ToString() + "</td>" +
