@@ -9,7 +9,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Sistema de Gestión de Tareas :: SpaceOps</title>
+  <title>Sistema de administración de alquileres :: AlquiSoft</title>
 
   <!-- Template CSS -->
   <link rel="stylesheet" href="assets/css/style-starter.css">
@@ -29,9 +29,9 @@
     <div class="menu-right" style="padding-top: 20px;">
       <div class="navbar user-panel-top">
         <div class="logo" style="display: flex;justify-content: center;align-items: center;height: 100px;">
-			<img src="../Login/images/Logo_SpaceOps.png" alt="Your logo" title="Your logo" class="img-fluid" style="height:200px;" />
+			<img src="../Login/images/logo_AlquisoftTransparente.png" alt="Your logo" title="Your logo" class="img-fluid" style="height:200px;" />
 		</div>
-        <h1>Sistema de Gestión de Tareas | SpaceOps</h1>
+        <h1>Sistema de administración de alquileres | AlquiSoft</h1>
         <div class="user-dropdown-details d-flex">
           
           <div class="profile_details">
@@ -89,14 +89,14 @@
               <div class="card card_border border-primary-top p-4">
                 <i class="lnr lnr-book"> </i>
                 <h3 class="text-primary number" id="TotalTareas"></h3>
-                 <h4 style="text-align:right" class="stat-text">Total Tareas</h4>
+                 <h4 style="text-align:right" class="stat-text">Total Alquileres</h4>
               </div>
             </div>
             <div class="col-sm-6 pl-sm-2 statistics-grid">
               <div class="card card_border border-primary-top p-4">
                 <i class="lnr lnr-book"> </i>
-                <h3 class="text-secondary number" id="TotalPendientes"></h3>
-                <h4 style="text-align:right" class="stat-text">Tareas Pendientes</h4>
+                <h3 class="text-secondary number" id="TotalSinIniciar"></h3>
+                <h4 style="text-align:right" class="stat-text">Alquileres Sin Iniciar</h4>
               </div>
             </div>
           </div>
@@ -106,15 +106,15 @@
             <div class="col-sm-6 pr-sm-2 statistics-grid">
               <div class="card card_border border-primary-top p-4">
                 <i class="lnr lnr-book"> </i>
-                <h3 class="text-success number" id="TotalEnProceso"></h3>
-                <h4 style="text-align:right" class="stat-text">Tareas En Proceso</h4>
+                <h3 class="text-success number" id="TotalIniciado"></h3>
+                <h4 style="text-align:right" class="stat-text">Alquileres Iniciados</h4>
               </div>
             </div>
             <div class="col-sm-6 pl-sm-2 statistics-grid">
               <div class="card card_border border-primary-top p-4">
                 <i class="lnr lnr-book"> </i>
-                <h3 class="text-danger number" id="TotalFinalizadas"></h3>
-                <h4 style="text-align:right" class="stat-text">Tareas Finalizadas</h4>
+                <h3 class="text-danger number" id="TotalFinalizados"></h3>
+                <h4 style="text-align:right" class="stat-text">Alquileres Finalizados</h4>
               </div>
             </div>
           </div>
@@ -129,12 +129,12 @@
         <div class="col-lg-6 pl-lg-2 chart-grid">
           <div class="card text-center card_border">
             <div class="card-header chart-grid__header">
-              Gráfico Pastel de Tareas x Estado
+              Gráfico Pastel de Alquileres x Estado
             </div>
             <div class="card-body">
               <!-- line chart -->
               <div id="container">
-                <canvas id="grfTareasXEstadoPie"></canvas>
+                <canvas id="grfAlquileresXEstadoPie"></canvas>
               </div>
               <!-- //line chart -->
             </div>
@@ -146,12 +146,12 @@
         <div class="col-lg-6 pl-lg-2 chart-grid">
           <div class="card text-center card_border">
             <div class="card-header chart-grid__header">
-              Gráfico de Barras de Tareas x Prioridad
+              Gráfico de Barras de Alquileres x Condición de Pago
             </div>
             <div class="card-body">
               <!-- line chart -->
               <div id="container">
-                <canvas id="grfTareasXPrioridadBarras"></canvas>
+                <canvas id="grfAlquileresXCondicionBarras"></canvas>
               </div>
               <!-- //line chart -->
             </div>
@@ -168,25 +168,25 @@
     <!-- forms 4 -->
     <div class="card card_border py-2 mb-4">
 		<div class="cards__heading">
-            <h3>Filtros de Búsqueda de Tareas <span></span></h3>
+            <h3>Filtros de Búsqueda de Alquileres <span></span></h3>
         </div>
         <div class="card-body">
-            <form action="javascript: cargaListaTareas()" method="post">
+            <form action="javascript: cargaListaAlquileres()" method="post">
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="bsqTitulo" class="input__label">Título Tarea</label>
-                        <input type="text" class="form-control input-style" id="bsqTitulo"
-                            placeholder="Título de Tarea">
+                        <label for="bsqApartamento" class="input__label">Número de Apartamento</label>
+                        <input type="text" class="form-control input-style" id="bsqApartamento"
+                            placeholder="Apartamento">
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="bsqEstado" class="input__label">Estado Tarea</label>
+                        <label for="bsqEstado" class="input__label">Estado Alquiler</label>
                         <select id="bsqEstado" class="form-control input-style">
                             
                         </select>
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary btn-style mt-4">Buscar</button>
-                <button type="button" class="btn btn-primary btn-style mt-4" onclick="javascript: crearTarea()">Crear</button>
+                <button type="button" class="btn btn-primary btn-style mt-4" onclick="javascript: crearAlquiler()">Crear</button>
             </form>
         </div>
     </div>
@@ -195,10 +195,10 @@
     <!-- forms 4 -->
     <div class="card card_border py-2 mb-4">
 		<div class="cards__heading">
-            <h3>Listado de Tareas <span></span></h3>
+            <h3>Listado de Alquileres <span></span></h3>
         </div>
         <div class="card-body">
-            <table id="tblTareas">
+            <table id="tblAlquileres">
                 <!-- Definición de tabla aquí -->
             </table>
         </div>
@@ -211,7 +211,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h3>Mantenimiento de Tareas <span></span></h3>
+                <h3>Mantenimiento de Alquileres <span></span></h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -220,14 +220,14 @@
                 <!-- forms 1 -->
                 <div class="card card_border py-2 mb-4">
                     <div class="card-body">
-                        <form action="javascript: mantenimientoTarea()" method="post">
+                        <form action="javascript: mantenimientoAlquileres()" method="post">
                             <div class="form-group">
-                                <label for="txtTitulo" class="input__label">Título</label>
-                                <input type="text" class="form-control input-style" id="txtTitulo" placeholder="Título de Tarea">
+                                <label for="txtApartamento" class="input__label">Apartamento</label>
+                                <input type="text" class="form-control input-style" id="txtApartamento" placeholder="Apartamento">
                             </div>
                             <div class="form-group">
-                                <label for="txtDescripcion" class="input__label">Descripción</label>
-                                <input type="text" class="form-control input-style" id="txtDescripcion" placeholder="Descripción de Tarea">
+                                <label for="txtInquilino" class="input__label">Inquilino</label>
+                                <input type="text" class="form-control input-style" id="txtInquilino" placeholder="Nombre del Inquilino">
                             </div>
                             <div class="form-group">
                                 <label for="txtFecIni" class="input__label">Fecha Inicio</label>
@@ -244,14 +244,14 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="cboPrioridad" class="input__label">Prioridad</label>
-                                <select id="cboPrioridad" class="form-control input-style">
+                                <label for="cboCondicion" class="input__label">Condición Pago</label>
+                                <select id="cboCondicion" class="form-control input-style">
                                     
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="cboActividad" class="input__label">Actividad</label>
-                                <select id="cboActividad" class="form-control input-style">
+                                <label for="cboCategoria" class="input__label">Categorías de Apartamentos</label>
+                                <select id="cboCategoria" class="form-control input-style">
                                     
                                 </select>
                             </div>
@@ -275,7 +275,7 @@
 </section>
   <!--footer section start-->
 <footer class="dashboard">
-  <p>&copy 2025 Sistema de Gestión de Tareas | <a href="#" class="text-primary">SpaceOps</a></p>
+  <p>&copy 2026 Sistema de administración de alquileres | <a href="#" class="text-primary">AlquiSoft</a></p>
 </footer>
 <!--footer section end-->
 <!-- move top -->

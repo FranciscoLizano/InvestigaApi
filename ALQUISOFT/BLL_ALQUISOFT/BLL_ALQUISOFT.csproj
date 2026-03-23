@@ -43,6 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BD\cls_BD_BLL.cs" />
+    <Compile Include="ControlAlquileres\cls_Alquileres_BLL.cs" />
+    <Compile Include="ControlAlquileres\cls_Categoria_Apartamento_BLL.cs" />
+    <Compile Include="ControlAlquileres\cls_Condicion_Pago_BLL.cs" />
+    <Compile Include="ControlAlquileres\cls_Estado_Alquileres_BLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ControlAlquileres\cls_Usuarios_BLL.cs" />
   </ItemGroup>

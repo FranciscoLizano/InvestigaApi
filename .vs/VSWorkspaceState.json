@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\ALQUISOFT",
-    "\\ALQUISOFT\\BLL_ALQUISOFT\\DB",
-    "\\ALQUISOFT\\DAL_ALQUISOFT\\DB",
     "\\ALQUISOFT\\PL_ALQUISOFT",
-    "\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres"
+    "\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres",
+    "\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript"
   ],
-  "SelectedNode": "\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+  "SelectedNode": "\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\InicioSesion.js",
   "PreviewInSolutionExplorer": false
 }
