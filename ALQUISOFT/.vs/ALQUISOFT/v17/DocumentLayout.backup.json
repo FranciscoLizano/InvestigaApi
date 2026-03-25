@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\InvestigaApi\\ALQUISOFT\\",
+  "WorkspaceRootPath": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\login\\frminiciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\login\\frminiciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\controlalquileres\\assets\\css\\style-starter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\assets\\css\\style-starter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,193 +39,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmControlAlquileres.aspx.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
-              "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
-              "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
-              "ViewState": "AgIAAKMAAAAAAAAAAAAcwLgAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:09:42.261Z",
+              "Title": "ControlAlquileres.js",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "RelativeToolTip": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "ViewState": "AgIAAKMBAAAAAAAAAAAAAE0BAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-25T00:16:09.671Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "style-starter.css",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\assets\\css\\style-starter.css",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\assets\\css\\style-starter.css",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\assets\\css\\style-starter.css",
+              "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\assets\\css\\style-starter.css",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAABoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-25T00:14:36.042Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmControlAlquileres.aspx",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-25T00:10:17.498Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmInicioSesion.aspx",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "RelativeToolTip": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-03-25T00:10:12.543Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\Web.config",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
+              "RelativeToolTip": "PL_ALQUISOFT\\Web.config",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-03-25T00:06:01.637Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{33c88fe3-43b3-374e-9aac-c4679036dce0}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{587910af-a90a-3787-8b7a-65e34824fa7c}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:142:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            }
-          ]
-        },
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:144:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmControlAlquileres.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAD4v8oAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T03:09:42.261Z",
+              "EditorCaption": ""
             }
           ]
         }

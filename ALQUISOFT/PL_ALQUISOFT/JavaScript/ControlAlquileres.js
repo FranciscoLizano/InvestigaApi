@@ -58,7 +58,8 @@ function cargaCombosCategorias() {
                         position: 'center-center',
                         icon: "error",
                         title: "Error en la conexión",
-                        text: "Error en la conexión a labase de datos"
+                        text: "Error en la conexión a la base de datos",
+                        confirmButtonColor: '#78be84',
                     })
                 }
                 else {
@@ -71,6 +72,7 @@ function cargaCombosCategorias() {
                             icon: 'info',
                             title: 'Información de registros',
                             text: res + " de Categorias de Apartamentos Disponibles. Contacte al administrador del sistema.",
+                            confirmButtonColor: '#78be84',
                         });
                     }
                     else {
@@ -94,7 +96,8 @@ function cargaCombosCategorias() {
             text: "No se ha podido validar la información del usuario. Por favor, inicie sesión en el sistema.",
             showConfirmButton: false,
             timer: 4500,
-            timerProgressBar: true
+            timerProgressBar: true,
+            confirmButtonColor: '#78be84',
         });
 
         setTimeout(function () {
@@ -146,6 +149,7 @@ function cargaCombosEstados() {
                             icon: 'info',
                             title: 'Información de registros',
                             text: res + " de Estados de Alquileres Disponibles. Contacte al administrador del sistema.",
+                            confirmButtonColor: '#78be84',
                         });
                     }
                     else {
@@ -168,6 +172,7 @@ function cargaCombosEstados() {
             icon: 'error',
             title: 'Información de credenciales',
             text: "No se ha podido validar la información del usuario. Por favor, inicie sesión en el sistema.",
+            confirmButtonColor: '#78be84',
             showConfirmButton: false,
             timer: 4500,
             timerProgressBar: true
@@ -208,7 +213,8 @@ function cargaCombosCondicion() {
                         position: 'center-center',
                         icon: "error",
                         title: "Error en la conexión",
-                        text: "Error en la conexión a labase de datos"
+                        text: "Error en la conexión a labase de datos",
+                        confirmButtonColor: '#78be84',
                     })
                 }
                 else {
@@ -221,6 +227,7 @@ function cargaCombosCondicion() {
                             icon: 'info',
                             title: 'Información de registros',
                             text: res + " de Condiciones de Pago Disponibles. Contacte al administrador del sistema.",
+                            confirmButtonColor: '#78be84',
                         });
                     }
                     else {
@@ -242,6 +249,7 @@ function cargaCombosCondicion() {
             icon: 'error',
             title: 'Información de credenciales',
             text: "No se ha podido validar la información del usuario. Por favor, inicie sesión en el sistema.",
+            confirmButtonColor: '#78be84',
             showConfirmButton: false,
             timer: 4500,
             timerProgressBar: true
@@ -297,6 +305,7 @@ function cargaListaAlquileres() {
                             icon: 'info',
                             title: 'Información de registros',
                             text: res + " de Alquileres con los filtros de búsqueda.",
+                            confirmButtonColor: '#78be84',
                         });
                     }
                     else {
@@ -321,7 +330,8 @@ function cargaListaAlquileres() {
             text: "No se ha podido validar la información del usuario. Por favor, inicie sesión en el sistema.",
             showConfirmButton: false,
             timer: 4500,
-            timerProgressBar: true
+            timerProgressBar: true,
+            confirmButtonColor: '#78be84',
         });
 
         setTimeout(function () {
