@@ -221,21 +221,51 @@
                 <div class="card card_border py-2 mb-4">
                     <div class="card-body">
                         <form action="javascript: mantenimientoAlquileres()" method="post">
-                            <div class="form-group">
-                                <label for="txtApartamento" class="input__label">Apartamento</label>
-                                <input type="text" class="form-control input-style" id="txtApartamento" placeholder="Apartamento">
+                            <div class="form-row align-items-center">
+                                <div class="form-group  col-md-6">
+                                    <label for="txtApartamento" class="input__label"># de Apartamento</label>
+                                </div>
+                                <div class="form-group  col-md-6">
+                                    <input type="text" class="form-control input-style" id="txtApartamento" placeholder="Apartamento">
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="txtInquilino" class="input__label">Inquilino</label>
                                 <input type="text" class="form-control input-style" id="txtInquilino" placeholder="Nombre del Inquilino">
                             </div>
-                            <div class="form-group">
-                                <label for="txtFecIni" class="input__label">Fecha Inicio</label>
-                                <input type="date" class="form-control input-style" id="txtFecIni" required="">
+                            <div class="form-row align-items-center">
+                                <div class="form-group col-md-3">
+                                    <label for="txtCorreo" class="input__label">Correo</label>
+                                </div>
+                                <div class="form-group  col-md-9">
+                                    <input type="text" class="form-control input-style" id="txtCorreo" placeholder="example@gmail.com">
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <label for="txtFecFin" class="input__label">Fecha Finalización</label>
-                                <input type="date" class="form-control input-style" id="txtFecFin" required="">
+                            <div class="form-row align-items-center justify-content-center">
+                                <div class="form-group  col-md-4">
+                                    <label for="txtTelefono" class="input__label">Teléfono</label>
+                                </div>
+                                <div class="form-group  col-md-4">
+                                    <input type="text" class="form-control input-style" id="txtTelefono" placeholder="8888-8888">
+                                </div>
+                            </div>                            
+                            <div class="form-row justify-content-center">
+                                <div class="form-group col-md-6 text-center">
+                                    <label for="txtFecIni" class="input__label">Inicio Contrato</label>
+                                    <input type="date" class="form-control input-style" id="txtFecIni" required="">
+                                </div>
+                                <div class="form-group col-md-6 text-center">
+                                    <label for="txtFecFin" class="input__label">Fin de Contrato</label>
+                                    <input type="date" class="form-control input-style" id="txtFecFin" required="">
+                                </div>
+                            </div>
+                            <div class="form-row align-items-center justify-content-center">
+                                <div class="form-group  col-md-4">
+                                    <label for="txtMensualidad" class="input__label">Mensualidad</label>
+                                </div>
+                                <div class="form-group  col-md-4">
+                                    <input type="text" class="form-control input-style" id="txtMensualidad" placeholder="₡ 0.00" oninput="formatearColones(this)">                                 
+                                </div>
                             </div>
                             <div class="form-group">
                                 <label for="cboEstado" class="input__label">Estado</label>
@@ -245,14 +275,12 @@
                             </div>
                             <div class="form-group">
                                 <label for="cboCondicion" class="input__label">Condición Pago</label>
-                                <select id="cboCondicion" class="form-control input-style">
-                                    
+                                <select id="cboCondicion" class="form-control input-style">                                    
                                 </select>
                             </div>
                             <div class="form-group">
                                 <label for="cboCategoria" class="input__label">Categorías de Apartamentos</label>
-                                <select id="cboCategoria" class="form-control input-style">
-                                    
+                                <select id="cboCategoria" class="form-control input-style">                                    
                                 </select>
                             </div>
                             <button type="submit" class="btn btn-primary btn-style mt-4">Guardar</button>

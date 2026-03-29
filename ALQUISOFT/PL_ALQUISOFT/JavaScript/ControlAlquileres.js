@@ -416,5 +416,15 @@ function paginar(elemento) {
         });
 
     }
-
 };
+
+
+function formatearColones(input) {
+    let valor = input.value.replace(/[^\d]/g, "");
+
+    if (valor) {
+        input.value = "₡ " + parseInt(valor).toLocaleString("es-CR");
+    } else {
+        input.value = "";
+    }
+}
