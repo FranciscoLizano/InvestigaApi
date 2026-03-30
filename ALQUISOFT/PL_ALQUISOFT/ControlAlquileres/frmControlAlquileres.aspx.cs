@@ -53,6 +53,7 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 throw ex;
             }
         }
+
         [WebMethod]
         public static string CargaListaEstadosCombo(List<string> obj_Parametros_JS)
         {
@@ -180,7 +181,7 @@ namespace PL_ALQUISOFT.ControlAlquileres
                                         "<td>" + obj_Alquileres_DAL.dtDatos.Rows[i][4].ToString() + "</td>" +
                                         "<td>" + Convert.ToDateTime(obj_Alquileres_DAL.dtDatos.Rows[i][5].ToString()).ToShortDateString() + "</td>" +
                                         "<td>" + Convert.ToDateTime(obj_Alquileres_DAL.dtDatos.Rows[i][6].ToString()).ToShortDateString() + "</td>" +
-                                        "<td>" + Convert.ToDouble(obj_Alquileres_DAL.dtDatos.Rows[i][7].ToString()).ToString("C") + "</td>" +
+                                        "<td>" + Convert.ToDecimal(obj_Alquileres_DAL.dtDatos.Rows[i][7].ToString()).ToString("C") + "</td>" +
                                         "<td>" + obj_Alquileres_DAL.dtDatos.Rows[i][8].ToString() + "</td>" +
                                         "<td>" + obj_Alquileres_DAL.dtDatos.Rows[i][9].ToString() + "</td>" +
                                         "<td>" + obj_Alquileres_DAL.dtDatos.Rows[i][10].ToString() + "</td>" +
@@ -194,6 +195,150 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 else
                 {
                     _mensaje = "No se encontraron registros";
+                }
+
+                return _mensaje;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [WebMethod]
+        public static string CargaInformacionAlquileres(List<string> obj_Parametros_JS)
+        {
+            try
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
+                cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
+
+                obj_Alquileres_DAL.iId_Alquiler = Convert.ToInt32(obj_Parametros_JS[1].ToString());
+
+                /*Ejecutar la lógica de negocio correspondiente*/
+                obj_Alquileres_BLL.ObtieneInformacioAlquileres(ref obj_Alquileres_DAL);
+
+                /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
+                if (obj_Alquileres_DAL.dtDatos.Rows.Count != 0)
+                {
+                    _mensaje += obj_Alquileres_DAL.dtDatos.Rows[0][0].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][1].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][2].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][3].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][4].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][5].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][6].ToString() + "<SPLITER>" +
+                                Convert.ToDecimal(obj_Alquileres_DAL.dtDatos.Rows[0][7])
+                                .ToString("C", new System.Globalization.CultureInfo("es-CR")) + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][8].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][9].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][10].ToString();
+                }
+                else
+                {
+                    _mensaje = "No se encontraron registros";
+                }
+
+                return _mensaje;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [WebMethod]
+        public static string MantenimientoAlquileres(List<string> obj_Parametros_JS)
+        {
+            try
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
+                cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
+
+                obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
+                obj_Alquileres_DAL.iId_Alquiler = Convert.ToInt32(obj_Parametros_JS[1].ToString());
+                obj_Alquileres_DAL.sApartamento = obj_Parametros_JS[2].ToString();
+                obj_Alquileres_DAL.sNombre_Inquilino = obj_Parametros_JS[3].ToString();
+                obj_Alquileres_DAL.sCorreo = obj_Parametros_JS[4].ToString();
+                obj_Alquileres_DAL.sTelefono = obj_Parametros_JS[5].ToString();
+                obj_Alquileres_DAL.dFecha_Inicio = Convert.ToDateTime(obj_Parametros_JS[6].ToString());
+                obj_Alquileres_DAL.dFecha_Fin = Convert.ToDateTime(obj_Parametros_JS[7].ToString());
+                string valor = obj_Parametros_JS[8].ToString()
+                                .Replace("₡", "")
+                                .Replace(" ", "")
+                                .Trim();
+                obj_Alquileres_DAL.dMensualidad = Convert.ToDecimal(valor);
+                obj_Alquileres_DAL.iId_Estado = Convert.ToInt32(obj_Parametros_JS[9].ToString());
+                obj_Alquileres_DAL.iId_CondPagoad = Convert.ToInt32(obj_Parametros_JS[10].ToString());
+                obj_Alquileres_DAL.iId_Categoria = Convert.ToInt32(obj_Parametros_JS[11].ToString());
+
+                //Se verifica si se va a crear o modificar un alquiler
+                if (obj_Alquileres_DAL.iId_Alquiler == 0)
+                {
+                    obj_Alquileres_BLL.CrearAlquileres (ref obj_Alquileres_DAL);
+                }
+                else
+                {
+                    obj_Alquileres_BLL.ModificarAlquileres(ref obj_Alquileres_DAL);
+                }
+
+                /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
+                if (obj_Alquileres_DAL.sValorScalar == "-1")
+                {
+                    _mensaje += "-1" + "<SPLITER>" + "Ya existe un alquiler registrado para el apartamento en el rango de fecha indicado";
+                }
+                else if (obj_Alquileres_DAL.sValorScalar == "0" || obj_Alquileres_DAL.sValorScalar == null)
+                {
+                    _mensaje += "0" + "<SPLITER>" + "Ocurrió un error al intentar guardar la información del alquiler. Intente nuevamente.";
+                }
+                else
+                {
+                    _mensaje += obj_Alquileres_DAL.sValorScalar + "<SPLITER>" + "La información del alquiler ha sido guardada en el sistema.";
+                }
+
+                return _mensaje;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [WebMethod]
+        public static string EliminarAlquileres(List<string> obj_Parametros_JS)
+        {
+            try
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
+                cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
+
+                obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
+                obj_Alquileres_DAL.iId_Alquiler = Convert.ToInt32(obj_Parametros_JS[1].ToString());
+
+                /*Ejecutar la lógica de negocio correspondiente*/
+                obj_Alquileres_BLL.EliminarAlquileres(ref obj_Alquileres_DAL);
+
+                /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
+                if (obj_Alquileres_DAL.sValorScalar == "-1")
+                {
+                    _mensaje += "-1" + "<SPLITER>" + "No se encontró la información de alquiler que desea eliminar";
+                }
+                else if (obj_Alquileres_DAL.sValorScalar == "0")
+                {
+                    _mensaje += "0" + "<SPLITER>" + "Ocurrió un error al intentar eliminar la información del alquiler. Intente nuevamente.";
+                }
+                else
+                {
+                    _mensaje += obj_Alquileres_DAL.sValorScalar + "<SPLITER>" + "La información del alquiler ha sido eliminada en el sistema.";
                 }
 
                 return _mensaje;
