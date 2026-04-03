@@ -404,9 +404,9 @@ AS BEGIN
       ,CAST(ALQ.[Fecha_Inicio] AS date) AS [Fecha_Inicio_Contrato]
 	  ,CAST(ALQ.[Fecha_Fin] AS date) AS [Fecha_Fin_Contrato]
       ,ALQ.[Mensualidad] AS [Mensualidad]
-	  ,ALQ.[Id_Categoria] AS [Categoria]
-	  ,ALQ.[Id_CondPago] AS [Condicion_Pago]
 	  ,ALQ.[Id_Estado] AS [Estado]
+	  ,ALQ.[Id_CondPago] AS [Condicion_Pago]
+	  ,ALQ.[Id_Categoria] AS [Categoria]
   FROM [dbo].[Alquileres] ALQ
   WHERE ALQ.[Id_Alquiler]=@IdAlquiler
 END
@@ -429,11 +429,21 @@ CREATE PROCEDURE [dbo].[USP_Insertar_Alquileres]
 )
 AS BEGIN 
 BEGIN TRY
+	 -- Se validar que la fecha fin no sea mayor a la de inicio
+    IF @Fecha_Inicio > @Fecha_Fin
+    BEGIN
+        SELECT -2
+        RETURN
+    END
 	IF NOT EXISTS(SELECT Id_Alquiler 
 					FROM Alquileres 
-					WHERE Apartamento=RTRIM(LTRIM(@Apartamento)) 
-							AND Id_Usuario=@IdUsuario						
-							AND Fecha_Fin > @Fecha_Inicio)
+					WHERE Apartamento = RTRIM(LTRIM(@Apartamento))
+							AND Id_Usuario = @IdUsuario						
+							AND	(
+									@Fecha_Inicio <= Fecha_Fin
+									AND @Fecha_Fin >= Fecha_Inicio
+								)
+					)
 	-- Evaluar fecha actual no esta dentro del rango de otro alquiler que exista 
 	BEGIN
 		INSERT INTO  [dbo].[Alquileres]
@@ -518,12 +528,22 @@ CREATE PROCEDURE [dbo].[USP_Modificar_Alquiler]
 AS BEGIN 
 BEGIN TRY
 SET DATEFORMAT DMY
-	IF EXISTS(SELECT Id_Alquiler 
+	 -- Se validar que la fecha fin no sea mayor a la de inicio
+    IF @Fecha_Inicio > @Fecha_Fin
+    BEGIN
+        SELECT -2
+        RETURN
+    END
+	IF NOT EXISTS(SELECT Id_Alquiler 
 					FROM Alquileres 
-					WHERE	Apartamento=RTRIM(LTRIM(@Apartamento)) 
-							AND Id_Usuario=@IdUsuario 
-							AND Id_Alquiler=(@IdAlquiler)						
-							AND Fecha_Fin>@Fecha_Inicio)
+					WHERE	Apartamento = RTRIM(LTRIM(@Apartamento)) 
+							AND Id_Usuario = @IdUsuario 
+							AND Id_Alquiler <> (@IdAlquiler)	
+							AND (
+									@Fecha_Inicio <= Fecha_Fin
+									AND @Fecha_Fin >= Fecha_Inicio
+								)
+				)
 							-- Evaluar fecha inicio esta dentro del rango de un alquiler que exista 
 	BEGIN
 		UPDATE [dbo].[Alquileres]

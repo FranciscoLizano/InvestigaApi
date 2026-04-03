@@ -518,7 +518,7 @@ function mantenimientoAlquileres() {
                     arreglo = (str.split("<SPLITER>"));
                     var resultado = arreglo[0];
 
-                    if ((resultado != "0") && (resultado != "-1")) {
+                    if ((resultado != "0") && (resultado != "-1") && (resultado != "-2")) {
 
                         Swal.fire({
                             position: 'center-center',

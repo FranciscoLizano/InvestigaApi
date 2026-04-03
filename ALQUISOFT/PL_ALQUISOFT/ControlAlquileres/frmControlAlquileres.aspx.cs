@@ -290,7 +290,11 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 }
 
                 /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
-                if (obj_Alquileres_DAL.sValorScalar == "-1")
+                if (obj_Alquileres_DAL.sValorScalar == "-2")
+                {
+                    _mensaje += "-2" + "<SPLITER>" + "La fecha de Inicio Contrato no puede ser mayor a la fecha Fin de Contrato";
+                }
+                else if (obj_Alquileres_DAL.sValorScalar == "-1")
                 {
                     _mensaje += "-1" + "<SPLITER>" + "Ya existe un alquiler registrado para el apartamento en el rango de fecha indicado";
                 }
