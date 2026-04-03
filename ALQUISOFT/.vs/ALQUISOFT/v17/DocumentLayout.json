@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|solutionrelative:bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\InvestigaApi\\ALQUISOFT\\pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\javascript\\graficoalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\javascript\\graficoalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\InvestigaApi\\ALQUISOFT\\pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|C:\\InvestigaApi\\ALQUISOFT\\bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|solutionrelative:bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -184,20 +184,33 @@
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
               "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
               "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP0AAABUAAAAAAAAAA==",
+              "ViewState": "AgIAAKsBAAAAAAAAAAArwJgBAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-29T18:43:31.394Z",
+              "WhenOpened": "2026-04-02T17:02:49.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "GraficoAlquileres.js",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
+              "RelativeToolTip": "PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
+              "ViewState": "AgIAABgAAAAAAAAAAAA3wDoBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-02T17:11:13.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "cls_Alquileres_BLL.cs",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "RelativeDocumentMoniker": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "RelativeToolTip": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkBAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-29T18:03:23.031Z",
               "EditorCaption": ""
@@ -205,25 +218,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ControlAlquileres.js",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
-              "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
-              "RelativeToolTip": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-03-25T00:16:09.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\Web.config",
               "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
               "RelativeToolTip": "PL_ALQUISOFT\\Web.config",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwCgAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-03-25T00:06:01.637Z",
               "EditorCaption": ""

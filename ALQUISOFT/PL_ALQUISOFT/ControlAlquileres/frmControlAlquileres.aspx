@@ -88,7 +88,7 @@
             <div class="col-sm-6 pr-sm-2 statistics-grid">
               <div class="card card_border border-primary-top p-4">
                 <i class="lnr lnr-book"> </i>
-                <h3 class="text-primary number" id="TotalTareas"></h3>
+                <h3 class="text-primary number" id="TotalAlquileres"></h3>
                  <h4 style="text-align:right" class="stat-text">Total Alquileres</h4>
               </div>
             </div>
@@ -151,7 +151,7 @@
             <div class="card-body">
               <!-- line chart -->
               <div id="container">
-                <canvas id="grfAlquileresXCondicionBarras"></canvas>
+                <canvas id="grfAlquileresXCondicionPagoBarras"></canvas>
               </div>
               <!-- //line chart -->
             </div>
@@ -395,7 +395,7 @@
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 
 <script src="../JavaScript/ControlAlquileres.js"></script>
-<script src="../JavaScript/TaskCharts.js"></script>
+<script src="../JavaScript/GraficoAlquileres.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </body>

@@ -2,6 +2,7 @@
 using DAL_ALQUISOFT.ControlAlquileres;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
@@ -339,6 +340,203 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 else
                 {
                     _mensaje += obj_Alquileres_DAL.sValorScalar + "<SPLITER>" + "La información del alquiler ha sido eliminada en el sistema.";
+                }
+
+                return _mensaje;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [WebMethod]
+        public static string cargaResumenAlquileres(List<string> obj_Parametros_JS)
+        {
+            try          
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
+                cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
+
+                obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
+
+                /*Ejecutar la lógica de negocio correspondiente*/
+                obj_Alquileres_BLL.cargaResumenAlquileres(ref obj_Alquileres_DAL);
+
+                /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
+                if (obj_Alquileres_DAL.dtDatos.Rows.Count != 0)
+                {
+                    _mensaje += obj_Alquileres_DAL.dtDatos.Rows[0][0].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][1].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][2].ToString() + "<SPLITER>" +
+                                obj_Alquileres_DAL.dtDatos.Rows[0][3].ToString();
+                }
+                else
+                {
+                    _mensaje = "No se encontraron registros";
+                }
+
+                return _mensaje;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [WebMethod]
+        public static string CargaListaEstadosGrafico(List<string> obj_Parametros_JS)
+        {
+            try
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Estado_Alquileres_DAL obj_Estado_Alquileres_DAL = new cls_Estado_Alquileres_DAL();
+                cls_Estado_Alquileres_BLL obj_Estados_Tareas_BLL = new cls_Estado_Alquileres_BLL();
+
+                /*Ejecutar la lógica de negocio correspondiente*/
+                obj_Estados_Tareas_BLL.listarEstadosAlquileres(ref obj_Estado_Alquileres_DAL);
+
+                /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
+                if (obj_Estado_Alquileres_DAL.dtDatos.Rows.Count != 0)
+                {
+
+                    DataView dv = obj_Estado_Alquileres_DAL.dtDatos.DefaultView;
+                    dv.Sort = obj_Estado_Alquileres_DAL.dtDatos.Columns[1] + " DESC";
+
+                    foreach (DataRowView drv in dv)
+                    {
+                        _mensaje += drv[1].ToString() + "<SPLITER>";
+                    }
+                }
+                else
+                {
+                    _mensaje = "No se encontraron registros";
+                }
+
+                return _mensaje;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [WebMethod]
+        public static string cargaListaCantidadAlquileresXEstadoGrafico(List<string> obj_Parametros_JS)
+        {
+            try
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
+                cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
+
+                obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
+
+                /*Ejecutar la lógica de negocio correspondiente*/
+                obj_Alquileres_BLL.listarCantidadAlquileresXEstado(ref obj_Alquileres_DAL);
+
+                /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
+                if (obj_Alquileres_DAL.dtDatos.Rows.Count != 0)
+                {
+
+                    DataView dv = obj_Alquileres_DAL.dtDatos.DefaultView;
+                    dv.Sort = obj_Alquileres_DAL.dtDatos.Columns[0] + " DESC";
+
+                    foreach (DataRowView drv in dv)
+                    {
+                        _mensaje += drv[1].ToString() + "<SPLITER>";
+                    }
+                }
+                else
+                {
+                    _mensaje = "No se encontraron registros";
+                }
+
+                return _mensaje;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [WebMethod]
+        public static string CargaListaCondicionPagoGrafico(List<string> obj_Parametros_JS)
+        {
+            try
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Condicion_Pago_DAL obj_Condicion_Pago_DAL = new cls_Condicion_Pago_DAL();
+                cls_Condicion_Pago_BLL obj_Condicion_Pago_BLL = new cls_Condicion_Pago_BLL();
+
+                /*Ejecutar la lógica de negocio correspondiente*/
+                obj_Condicion_Pago_BLL.listarCondicionPago(ref obj_Condicion_Pago_DAL);
+
+                /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
+                if (obj_Condicion_Pago_DAL.dtDatos.Rows.Count != 0)
+                {
+
+                    DataView dv = obj_Condicion_Pago_DAL.dtDatos.DefaultView;
+                    dv.Sort = obj_Condicion_Pago_DAL.dtDatos.Columns[1] + " ASC";
+
+                    foreach (DataRowView drv in dv)
+                    {
+                        _mensaje += drv[1].ToString() + "<SPLITER>";
+                    }
+                }
+                else
+                {
+                    _mensaje = "No se encontraron registros";
+                }
+
+                return _mensaje;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [WebMethod]
+        public static string cargaListaCantidadAlquileresXCondicinPagoGrafico(List<string> obj_Parametros_JS)
+        {
+            try
+            {
+                string _mensaje = string.Empty;
+
+                /*Objetos de la entidad con la que estamos trabajando*/
+                cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
+                cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
+
+                obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
+
+                /*Ejecutar la lógica de negocio correspondiente*/
+                obj_Alquileres_BLL.listarCantidadAlquileresXCondicionPago(ref obj_Alquileres_DAL);
+
+                /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
+                if (obj_Alquileres_DAL.dtDatos.Rows.Count != 0)
+                {
+
+                    DataView dv = obj_Alquileres_DAL.dtDatos.DefaultView;
+                    dv.Sort = obj_Alquileres_DAL.dtDatos.Columns[0] + " ASC";
+
+                    foreach (DataRowView drv in dv)
+                    {
+                        _mensaje += drv[1].ToString() + "<SPLITER>";
+                    }
+                }
+                else
+                {
+                    _mensaje = "No se encontraron registros";
                 }
 
                 return _mensaje;

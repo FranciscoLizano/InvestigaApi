@@ -382,7 +382,7 @@ AS BEGIN
 	  ,EST.[Estado] AS [Estado]
   FROM [dbo].[Alquileres] ALQ
   INNER JOIN Categoria_Apartamento CATA ON CATA.Id_Categoria = ALQ.Id_Categoria
-  INNER JOIN Condicion_Pago CONP ON CONP.Id_CondPago = ALQ.Id_Estado
+  INNER JOIN Condicion_Pago CONP ON CONP.Id_CondPago = ALQ.Id_CondPago
   INNER JOIN Estado_Alquileres EST ON EST.Id_Estado = ALQ.Id_Estado
   WHERE LTRIM(RTRIM(ALQ.[Apartamento])) LIKE '%' + LTRIM(RTRIM(@Apartamento)) +'%'
 		AND ALQ.[Id_Usuario]=@IdUsuario 
@@ -623,26 +623,26 @@ CREATE PROCEDURE [dbo].[USP_Resumen_Estado_Alquiler]
 AS BEGIN
 	
 	DECLARE @Alquiler INT
-	DECLARE @Libres INT
-	DECLARE @Ocupados INT
-	DECLARE @Mantenimiento INT
+	DECLARE @SinIniciar INT
+	DECLARE @Iniciado INT
+	DECLARE @Finalizado INT
 
 	SET @Alquiler= (SELECT ISNULL(COUNT(Id_Alquiler),0) 
 						FROM Alquileres WHERE Id_Usuario=@Id_Usuario)
-	SET @Libres= (SELECT ISNULL(COUNT(ALQ.Id_Alquiler),0) 
+	SET @SinIniciar= (SELECT ISNULL(COUNT(ALQ.Id_Alquiler),0) 
 					FROM Alquileres ALQ INNER JOIN Estado_Alquileres ESTA 
 						ON ESTA.Id_Estado=ALQ.Id_Estado 
-					WHERE ESTA.Estado='Libres' AND ALQ.Id_Usuario=@Id_Usuario)
-	SET @Ocupados= (SELECT ISNULL(COUNT(ALQ.Id_Alquiler),0) 
+					WHERE ESTA.Estado='Sin Iniciar' AND ALQ.Id_Usuario=@Id_Usuario)
+	SET @Iniciado= (SELECT ISNULL(COUNT(ALQ.Id_Alquiler),0) 
 						FROM Alquileres ALQ INNER JOIN Estado_Alquileres ESTA 
 							ON ESTA.Id_Estado=ALQ.Id_Estado 
-						WHERE ESTA.Estado='Ocupados' AND ALQ.Id_Usuario=@Id_Usuario)
-	SET @Mantenimiento= (SELECT ISNULL(COUNT(ALQ.Id_Alquiler),0) 
+						WHERE ESTA.Estado='Iniciado' AND ALQ.Id_Usuario=@Id_Usuario)
+	SET @Finalizado= (SELECT ISNULL(COUNT(ALQ.Id_Alquiler),0) 
 							FROM Alquileres ALQ INNER JOIN Estado_Alquileres ESTA 
 								ON ESTA.Id_Estado=ALQ.Id_Estado 
-								WHERE ESTA.Estado='Mantenimiento' AND ALQ.Id_Usuario=@Id_Usuario)
+								WHERE ESTA.Estado='Finalizado' AND ALQ.Id_Usuario=@Id_Usuario)
 
-	SELECT @Alquiler AS Alquileres, @Libres AS Libres, @Ocupados AS Ocupado, @Mantenimiento AS Mantenimiento
+	SELECT @Alquiler AS Alquileres, @SinIniciar AS 'Sin Iniciar', @Iniciado AS Iniciado, @Finalizado AS Finalizado
 
 END
 GO

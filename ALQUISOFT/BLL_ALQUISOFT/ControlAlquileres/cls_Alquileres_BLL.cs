@@ -256,5 +256,134 @@ namespace BLL_ALQUISOFT.ControlAlquileres
                 throw ex;
             }
         }
+
+        public void cargaResumenAlquileres(ref cls_Alquileres_DAL obj_Alquileres_DAL)
+        {
+            try
+            {
+                /*Objetos de comunicación al ámbito de base de datos (siempre va a ser necesario)*/
+                cls_BD_DAL obj_BD_DAL = new cls_BD_DAL();
+                cls_BD_BLL obj_BD_BLL = new cls_BD_BLL();
+
+                /*Dar forma al atributo de DataTable de parámetros del objeto con el que estamos trabajando*/
+                obj_Alquileres_DAL.dtParametros = null;
+                obj_Alquileres_DAL.dtParametros = obj_BD_BLL.ObtieneDTParametros(obj_Alquileres_DAL.dtParametros);
+
+                /*Agregar los parámetros que requiere el procedimiento almacenado*/
+                /*Regla: Orden los valores de los parametros ==> Nombre del parámetro, Código de tipo de parámetro, Valor (atributo del objeto)*/
+                obj_Alquileres_DAL.dtParametros.Rows.Add("@Id_Usuario", "1", obj_Alquileres_DAL.iId_Usuario);
+
+                /*Definir el nombre del KEY que contiene el nombre del procedimiento almacenado de la base de datos*/
+                obj_BD_DAL.sNomSP = ConfigurationManager.AppSettings["SP_Resumen_Alquileres"];
+                /*Le asignamos al DT Parametros del objeto de BD la misma estructura del DT Parametros de la entidad con la que estamos trabajando*/
+                obj_BD_DAL.DT_Parametros = obj_Alquileres_DAL.dtParametros;
+                /*Definimos un nombre lógico a la tabla de respuesta*/
+                obj_BD_DAL.sNomTabla = "ResumenAlquileres";
+
+                /*Ejecutar en base de datos la sentencia o la instruccion de SQL*/
+                obj_BD_BLL.EjecutaProcesosTabla(ref obj_BD_DAL);
+
+                /*Validar los resultados o la respuesta de bd*/
+                /*Si el mensaje de error de base de datos es vacío..... entonces eso significa que todo salió de forma correcta y podemos recuperar los valores*/
+                if (obj_BD_DAL.sMsjErrorBD == string.Empty)
+                {
+                    obj_Alquileres_DAL.dtDatos = obj_BD_DAL.DS.Tables[0];
+                }
+                else
+                {
+                    obj_Alquileres_DAL.dtDatos = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void listarCantidadAlquileresXEstado(ref cls_Alquileres_DAL obj_Alquileres_DAL)
+        {
+            try
+            {
+                /*Objetos de comunicación al ámbito de base de datos (siempre va a ser necesario)*/
+                cls_BD_DAL obj_BD_DAL = new cls_BD_DAL();
+                cls_BD_BLL obj_BD_BLL = new cls_BD_BLL();
+
+                /*Dar forma al atributo de DataTable de parámetros del objeto con el que estamos trabajando*/
+                obj_Alquileres_DAL.dtParametros = null;
+                obj_Alquileres_DAL.dtParametros = obj_BD_BLL.ObtieneDTParametros(obj_Alquileres_DAL.dtParametros);
+
+                /*Agregar los parámetros que requiere el procedimiento almacenado*/
+                /*Regla: Orden los valores de los parametros ==> Nombre del parámetro, Código de tipo de parámetro, Valor (atributo del objeto)*/
+                obj_Alquileres_DAL.dtParametros.Rows.Add("@Id_Usuario", "1", obj_Alquileres_DAL.iId_Usuario);
+
+                /*Definir el nombre del KEY que contiene el nombre del procedimiento almacenado de la base de datos*/
+                obj_BD_DAL.sNomSP = ConfigurationManager.AppSettings["SP_LST_Cantidad_AlquileresXEstado"];
+                /*Le asignamos al DT Parametros del objeto de BD la misma estructura del DT Parametros de la entidad con la que estamos trabajando*/
+                obj_BD_DAL.DT_Parametros = obj_Alquileres_DAL.dtParametros;
+                /*Definimos un nombre lógico a la tabla de respuesta*/
+                obj_BD_DAL.sNomTabla = "CantidadAlquileresXEstado";
+
+                /*Ejecutar en base de datos la sentencia o la instruccion de SQL*/
+                obj_BD_BLL.EjecutaProcesosTabla(ref obj_BD_DAL);
+
+                /*Validar los resultados o la respuesta de bd*/
+                /*Si el mensaje de error de base de datos es vacío..... entonces eso significa que todo salió de forma correcta y podemos recuperar los valores*/
+                if (obj_BD_DAL.sMsjErrorBD == string.Empty)
+                {
+                    obj_Alquileres_DAL.dtDatos = obj_BD_DAL.DS.Tables[0];
+                }
+                else
+                {
+                    obj_Alquileres_DAL.dtDatos = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public void listarCantidadAlquileresXCondicionPago(ref cls_Alquileres_DAL obj_Alquileres_DAL)
+        {
+            try
+            {
+                /*Objetos de comunicación al ámbito de base de datos (siempre va a ser necesario)*/
+                cls_BD_DAL obj_BD_DAL = new cls_BD_DAL();
+                cls_BD_BLL obj_BD_BLL = new cls_BD_BLL();
+
+                /*Dar forma al atributo de DataTable de parámetros del objeto con el que estamos trabajando*/
+                obj_Alquileres_DAL.dtParametros = null;
+                obj_Alquileres_DAL.dtParametros = obj_BD_BLL.ObtieneDTParametros(obj_Alquileres_DAL.dtParametros);
+
+                /*Agregar los parámetros que requiere el procedimiento almacenado*/
+                /*Regla: Orden los valores de los parametros ==> Nombre del parámetro, Código de tipo de parámetro, Valor (atributo del objeto)*/
+                obj_Alquileres_DAL.dtParametros.Rows.Add("@Id_Usuario", "1", obj_Alquileres_DAL.iId_Usuario);
+
+                /*Definir el nombre del KEY que contiene el nombre del procedimiento almacenado de la base de datos*/
+                obj_BD_DAL.sNomSP = ConfigurationManager.AppSettings["SP_LST_Cantidad_AlquileresXCondicionPago"];
+                /*Le asignamos al DT Parametros del objeto de BD la misma estructura del DT Parametros de la entidad con la que estamos trabajando*/
+                obj_BD_DAL.DT_Parametros = obj_Alquileres_DAL.dtParametros;
+                /*Definimos un nombre lógico a la tabla de respuesta*/
+                obj_BD_DAL.sNomTabla = "CantidadAlquileresXCondicionPago";
+
+                /*Ejecutar en base de datos la sentencia o la instruccion de SQL*/
+                obj_BD_BLL.EjecutaProcesosTabla(ref obj_BD_DAL);
+
+                /*Validar los resultados o la respuesta de bd*/
+                /*Si el mensaje de error de base de datos es vacío..... entonces eso significa que todo salió de forma correcta y podemos recuperar los valores*/
+                if (obj_BD_DAL.sMsjErrorBD == string.Empty)
+                {
+                    obj_Alquileres_DAL.dtDatos = obj_BD_DAL.DS.Tables[0];
+                }
+                else
+                {
+                    obj_Alquileres_DAL.dtDatos = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }
