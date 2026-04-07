@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36908.2 d17.14
+VisualStudioVersion = 17.14.36908.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL_ALQUISOFT", "PL_ALQUISOFT\PL_ALQUISOFT.csproj", "{A4234A09-DE1A-48D8-85E7-7540E3B43B32}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL_ALQUISOFT", "BLL_ALQUISOFT\BLL_ALQUISOFT.csproj", "{9171425F-27EA-4C98-B5BE-52AAD26F42EA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL_ALQUISOFT", "DAL_ALQUISOFT\DAL_ALQUISOFT.csproj", "{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEB_Alquisoft", "WEB_Alquisoft\WEB_Alquisoft.csproj", "{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5B0F938-4553-4CB8-9FBE-25E64788AA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
