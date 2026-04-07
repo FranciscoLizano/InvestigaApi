@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\InvestigaApi\\ALQUISOFT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|c:\\investigaapi\\alquisoft\\web_alquisoft\\assets\\css\\style-starter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|solutionrelative:web_alquisoft\\assets\\css\\style-starter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|c:\\investigaapi\\alquisoft\\web_alquisoft\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|solutionrelative:web_alquisoft\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -203,6 +207,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "style-starter.css",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\assets\\css\\style-starter.css",
+              "RelativeDocumentMoniker": "WEB_Alquisoft\\assets\\css\\style-starter.css",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\assets\\css\\style-starter.css",
+              "RelativeToolTip": "WEB_Alquisoft\\assets\\css\\style-starter.css",
+              "ViewState": "AgIAAFZRAAAAAAAAAAAAAPxRAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-07T07:27:22.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "contact.aspx",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\contact.aspx",
               "RelativeDocumentMoniker": "WEB_Alquisoft\\contact.aspx",
@@ -215,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "services.aspx",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\services.aspx",
               "RelativeDocumentMoniker": "WEB_Alquisoft\\services.aspx",
@@ -228,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "about.aspx",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\about.aspx",
               "RelativeDocumentMoniker": "WEB_Alquisoft\\about.aspx",
@@ -241,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "index.aspx",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\index.aspx",
               "RelativeDocumentMoniker": "WEB_Alquisoft\\index.aspx",
@@ -254,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "frmControlAlquileres.aspx",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
@@ -266,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ControlAlquileres.js",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
@@ -278,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "frmControlAlquileres.aspx.cs",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
@@ -291,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "GraficoAlquileres.js",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
@@ -303,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "cls_Alquileres_BLL.cs",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "RelativeDocumentMoniker": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
@@ -315,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Web.config",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\Web.config",
