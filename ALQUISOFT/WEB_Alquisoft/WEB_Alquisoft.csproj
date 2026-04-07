@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="assets\css\style-starter.css" />
-    <Content Include="assets\css\style-starter.txt" />
     <Content Include="assets\images\banner1.jpg" />
     <Content Include="assets\images\banner2.jpg" />
     <Content Include="assets\images\banner3.jpg" />
