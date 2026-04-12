@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D37E7064-6F57-4847-9655-AA391542B6ED}|PL_WEB_ALQUISOFT\\PL_WEB_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\web_alquisoft\\pl_web_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D37E7064-6F57-4847-9655-AA391542B6ED}|PL_WEB_ALQUISOFT\\PL_WEB_ALQUISOFT.csproj|solutionrelative:pl_web_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37E7064-6F57-4847-9655-AA391542B6ED}|PL_WEB_ALQUISOFT\\PL_WEB_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\web_alquisoft\\pl_web_alquisoft\\contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D37E7064-6F57-4847-9655-AA391542B6ED}|PL_WEB_ALQUISOFT\\PL_WEB_ALQUISOFT.csproj|solutionrelative:pl_web_alquisoft\\contact.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37E7064-6F57-4847-9655-AA391542B6ED}|PL_WEB_ALQUISOFT\\PL_WEB_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\web_alquisoft\\pl_web_alquisoft\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D37E7064-6F57-4847-9655-AA391542B6ED}|PL_WEB_ALQUISOFT\\PL_WEB_ALQUISOFT.csproj|solutionrelative:pl_web_alquisoft\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D37E7064-6F57-4847-9655-AA391542B6ED}|PL_WEB_ALQUISOFT\\PL_WEB_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\web_alquisoft\\pl_web_alquisoft\\assets\\js\\contacto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D37E7064-6F57-4847-9655-AA391542B6ED}|PL_WEB_ALQUISOFT\\PL_WEB_ALQUISOFT.csproj|solutionrelative:pl_web_alquisoft\\assets\\js\\contacto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\PL_WEB_ALQUISOFT\\Web.config",
+              "RelativeDocumentMoniker": "PL_WEB_ALQUISOFT\\Web.config",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\PL_WEB_ALQUISOFT\\Web.config",
+              "RelativeToolTip": "PL_WEB_ALQUISOFT\\Web.config",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-12T17:47:49.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contacto.js",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\PL_WEB_ALQUISOFT\\assets\\js\\Contacto.js",
+              "RelativeDocumentMoniker": "PL_WEB_ALQUISOFT\\assets\\js\\Contacto.js",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\PL_WEB_ALQUISOFT\\assets\\js\\Contacto.js",
+              "RelativeToolTip": "PL_WEB_ALQUISOFT\\assets\\js\\Contacto.js",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAlwBgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-12T17:08:06.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "contact.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\PL_WEB_ALQUISOFT\\contact.aspx.cs",
+              "RelativeDocumentMoniker": "PL_WEB_ALQUISOFT\\contact.aspx.cs",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\PL_WEB_ALQUISOFT\\contact.aspx.cs",
+              "RelativeToolTip": "PL_WEB_ALQUISOFT\\contact.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAADwvxcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T16:43:49.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "contact.aspx",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\PL_WEB_ALQUISOFT\\contact.aspx",
+              "RelativeDocumentMoniker": "PL_WEB_ALQUISOFT\\contact.aspx",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\PL_WEB_ALQUISOFT\\contact.aspx",
+              "RelativeToolTip": "PL_WEB_ALQUISOFT\\contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2026-04-12T16:43:39.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,57 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\InvestigaApi\\ALQUISOFT\\",
+  "WorkspaceRootPath": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\login\\frminiciosesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\login\\frminiciosesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\pl_alquisoft\\login\\frminiciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\login\\frminiciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\InvestigaApi\\ALQUISOFT\\pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|C:\\InvestigaApi\\ALQUISOFT\\web_alquisoft\\assets\\css\\style-starter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|solutionrelative:web_alquisoft\\assets\\css\\style-starter.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|C:\\InvestigaApi\\ALQUISOFT\\web_alquisoft\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|solutionrelative:web_alquisoft\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|C:\\InvestigaApi\\ALQUISOFT\\web_alquisoft\\services.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|solutionrelative:web_alquisoft\\services.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|C:\\InvestigaApi\\ALQUISOFT\\web_alquisoft\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|solutionrelative:web_alquisoft\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|C:\\InvestigaApi\\ALQUISOFT\\web_alquisoft\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\web_alquisoft\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|solutionrelative:web_alquisoft\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\InvestigaApi\\ALQUISOFT\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\web_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{03EFE928-DDED-42D2-A97C-E4A41F8B78AC}|WEB_Alquisoft\\WEB_Alquisoft.csproj|solutionrelative:web_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|c:\\users\\efallas\\documents\\esteban u\\programaci\u00F3n 4\\proyecto investigacion\\alquisoft\\pl_alquisoft\\login\\frminiciosesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\login\\frminiciosesion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\pl_alquisoft\\login\\frminiciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\login\\frminiciosesion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\javascript\\controlalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|C:\\InvestigaApi\\ALQUISOFT\\bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|solutionrelative:bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\InvestigaApi\\ALQUISOFT\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\controlalquileres\\frmcontrolalquileres.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\InvestigaApi\\ALQUISOFT\\pl_alquisoft\\javascript\\graficoalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\pl_alquisoft\\javascript\\graficoalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A4234A09-DE1A-48D8-85E7-7540E3B43B32}|PL_ALQUISOFT\\PL_ALQUISOFT.csproj|solutionrelative:pl_alquisoft\\javascript\\graficoalquileres.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -62,29 +50,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 46,
+          "SelectedChildIndex": 32,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmInicioSesion.aspx.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
-              "RelativeDocumentMoniker": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
-              "RelativeToolTip": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T15:14:57.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -95,15 +62,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -160,10 +119,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -227,84 +182,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmInicioSesion.aspx",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
-              "RelativeDocumentMoniker": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
-              "RelativeToolTip": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "DocumentIndex": 0,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\index.aspx",
+              "RelativeDocumentMoniker": "WEB_Alquisoft\\index.aspx",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\index.aspx",
+              "RelativeToolTip": "WEB_Alquisoft\\index.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-07T15:14:46.6Z",
+              "WhenOpened": "2026-04-12T00:08:15.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\Web.config",
+              "RelativeDocumentMoniker": "WEB_Alquisoft\\Web.config",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\WEB_Alquisoft\\Web.config",
+              "RelativeToolTip": "WEB_Alquisoft\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-12T00:08:11.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmInicioSesion.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
+              "RelativeToolTip": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAewDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T15:14:57.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "style-starter.css",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\assets\\css\\style-starter.css",
-              "RelativeDocumentMoniker": "WEB_Alquisoft\\assets\\css\\style-starter.css",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\assets\\css\\style-starter.css",
-              "RelativeToolTip": "WEB_Alquisoft\\assets\\css\\style-starter.css",
-              "ViewState": "AgIAAFZRAAAAAAAAAAAAAPxRAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-07T07:27:22.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "contact.aspx",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\contact.aspx",
-              "RelativeDocumentMoniker": "WEB_Alquisoft\\contact.aspx",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\contact.aspx",
-              "RelativeToolTip": "WEB_Alquisoft\\contact.aspx",
+              "Title": "frmInicioSesion.aspx",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "RelativeDocumentMoniker": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
+              "RelativeToolTip": "PL_ALQUISOFT\\login\\frmInicioSesion.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-07T07:22:38.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "services.aspx",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\services.aspx",
-              "RelativeDocumentMoniker": "WEB_Alquisoft\\services.aspx",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\services.aspx",
-              "RelativeToolTip": "WEB_Alquisoft\\services.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-07T07:21:43.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "about.aspx",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\about.aspx",
-              "RelativeDocumentMoniker": "WEB_Alquisoft\\about.aspx",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\about.aspx",
-              "RelativeToolTip": "WEB_Alquisoft\\about.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-07T07:11:30.047Z"
+              "WhenOpened": "2026-04-07T15:14:46.6Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "index.aspx",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\index.aspx",
-              "RelativeDocumentMoniker": "WEB_Alquisoft\\index.aspx",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\WEB_Alquisoft\\index.aspx",
-              "RelativeToolTip": "WEB_Alquisoft\\index.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-07T07:06:52.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "frmControlAlquileres.aspx",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
               "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -312,37 +245,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ControlAlquileres.js",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
               "RelativeToolTip": "PL_ALQUISOFT\\JavaScript\\ControlAlquileres.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgBAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-04-03T13:26:35.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-03T13:26:35.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\Web.config",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
               "RelativeToolTip": "PL_ALQUISOFT\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABhAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-03-25T00:06:01.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "frmControlAlquileres.aspx.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
               "RelativeToolTip": "PL_ALQUISOFT\\ControlAlquileres\\frmControlAlquileres.aspx.cs",
               "ViewState": "AgIAABwBAAAAAAAAAAD4vyYBAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -350,11 +282,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "GraficoAlquileres.js",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
               "RelativeDocumentMoniker": "PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
               "RelativeToolTip": "PL_ALQUISOFT\\JavaScript\\GraficoAlquileres.js",
               "ViewState": "AgIAABkAAAAAAAAAAAAYwDoBAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -362,11 +294,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "cls_Alquileres_BLL.cs",
-              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
+              "DocumentMoniker": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "RelativeDocumentMoniker": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
-              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
+              "ToolTip": "C:\\Users\\efallas\\Documents\\Esteban U\\Programaci\u00F3n 4\\PROYECTO INVESTIGACION\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "RelativeToolTip": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "ViewState": "AgIAALAAAAAAAAAAAAAtwKcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

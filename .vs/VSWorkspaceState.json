@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ALQUISOFT",
+    "\\ALQUISOFT\\PL_ALQUISOFT",
+    "\\Investigacion\\ConsumoAPI"
   ],
-  "SelectedNode": "\\ALQUISOFT.sln",
+  "SelectedNode": "\\ALQUISOFT\\PL_ALQUISOFT\\Web.config",
   "PreviewInSolutionExplorer": false
 }
