@@ -140,6 +140,8 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
                 cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
 
+                /* Se obtienen los parámetros recibidos, se convierten y se asignan a las propiedades
+                 correspondientes del objeto de acceso a datos */
                 obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
                 obj_Alquileres_DAL.sApartamento = obj_Parametros_JS[1].ToString();
                 obj_Alquileres_DAL.iId_Estado = Convert.ToInt32(obj_Parametros_JS[2].ToString());
@@ -170,7 +172,8 @@ namespace PL_ALQUISOFT.ControlAlquileres
                             "</thead>" +
                             "<tbody>";
 
-
+                    /* Se recorre cada registro del DataTable para construir dinámicamente las filas HTML de la tabla
+                     con la información de los alquileres incluyendo opciones de selección y eliminación por registro*/
                     for (int i = 0; i < obj_Alquileres_DAL.dtDatos.Rows.Count; i++)
                     {
                         _mensaje += "<tr>" +
@@ -217,6 +220,8 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
                 cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
 
+                /* Se obtienen el parámetro recibido, se convierte y se asignan a la propiedad
+                 correspondiente del objeto de acceso a datos */
                 obj_Alquileres_DAL.iId_Alquiler = Convert.ToInt32(obj_Parametros_JS[1].ToString());
 
                 /*Ejecutar la lógica de negocio correspondiente*/
@@ -262,6 +267,8 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
                 cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
 
+                /* Se obtienen los parámetros recibidos, se convierten y se asignan a las propiedades
+                 correspondientes del objeto de acceso a datos */
                 obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
                 obj_Alquileres_DAL.iId_Alquiler = Convert.ToInt32(obj_Parametros_JS[1].ToString());
                 obj_Alquileres_DAL.sApartamento = obj_Parametros_JS[2].ToString();
@@ -326,6 +333,8 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 cls_Alquileres_DAL obj_Alquileres_DAL = new cls_Alquileres_DAL();
                 cls_Alquileres_BLL obj_Alquileres_BLL = new cls_Alquileres_BLL();
 
+                /* Se obtienen los parámetros recibidos, se convierten y se asignan a las propiedades
+                 correspondientes del objeto de acceso a datos */
                 obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
                 obj_Alquileres_DAL.iId_Alquiler = Convert.ToInt32(obj_Parametros_JS[1].ToString());
 
@@ -408,10 +417,10 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
                 if (obj_Estado_Alquileres_DAL.dtDatos.Rows.Count != 0)
                 {
-
+                    // Se obtiene una vista del DataTable para poder manipular y ordenar los datos
                     DataView dv = obj_Estado_Alquileres_DAL.dtDatos.DefaultView;
                     dv.Sort = obj_Estado_Alquileres_DAL.dtDatos.Columns[1] + " DESC";
-
+                    // Se recorre cada fila de la vista ordenada
                     foreach (DataRowView drv in dv)
                     {
                         _mensaje += drv[1].ToString() + "<SPLITER>";
@@ -449,10 +458,10 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
                 if (obj_Alquileres_DAL.dtDatos.Rows.Count != 0)
                 {
-
+                    // Se obtiene una vista del DataTable para poder manipular y ordenar los datos
                     DataView dv = obj_Alquileres_DAL.dtDatos.DefaultView;
                     dv.Sort = obj_Alquileres_DAL.dtDatos.Columns[0] + " DESC";
-
+                    // Se recorre cada fila de la vista ordenada
                     foreach (DataRowView drv in dv)
                     {
                         _mensaje += drv[1].ToString() + "<SPLITER>";
@@ -488,10 +497,10 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
                 if (obj_Condicion_Pago_DAL.dtDatos.Rows.Count != 0)
                 {
-
+                    // Se obtiene una vista del DataTable para poder manipular y ordenar los datos
                     DataView dv = obj_Condicion_Pago_DAL.dtDatos.DefaultView;
                     dv.Sort = obj_Condicion_Pago_DAL.dtDatos.Columns[1] + " ASC";
-
+                    // Se recorre cada fila de la vista ordenada
                     foreach (DataRowView drv in dv)
                     {
                         _mensaje += drv[1].ToString() + "<SPLITER>";
@@ -529,10 +538,10 @@ namespace PL_ALQUISOFT.ControlAlquileres
                 /*Recuperamos los valores y los evaluamos (VALORES SCALARES / TABLAS DE DATOS)*/
                 if (obj_Alquileres_DAL.dtDatos.Rows.Count != 0)
                 {
-
+                    // Se obtiene una vista del DataTable para poder manipular y ordenar los datos
                     DataView dv = obj_Alquileres_DAL.dtDatos.DefaultView;
                     dv.Sort = obj_Alquileres_DAL.dtDatos.Columns[0] + " ASC";
-
+                    // Se recorre cada fila de la vista ordenada
                     foreach (DataRowView drv in dv)
                     {
                         _mensaje += drv[1].ToString() + "<SPLITER>";
