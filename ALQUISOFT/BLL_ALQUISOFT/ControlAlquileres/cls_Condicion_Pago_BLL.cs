@@ -12,6 +12,12 @@ namespace BLL_ALQUISOFT.ControlAlquileres
 {
     public class cls_Condicion_Pago_BLL
     {
+        /// <summary>
+        /// Consulta y obtiene la lista de condiciones de pago
+        /// desde la base de datos, ejecutando el procedimiento almacenado correspondiente.
+        /// El resultado se almacena en el DataTable del objeto de Condicion_Pago.
+        /// </summary>
+        /// <param name="obj_Condicion_Pago_DAL"></param>
         public void listarCondicionPago(ref cls_Condicion_Pago_DAL obj_Condicion_Pago_DAL)
         {
             try

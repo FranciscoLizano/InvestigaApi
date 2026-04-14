@@ -12,6 +12,14 @@ namespace BLL_ALQUISOFT.ControlAlquileres
 {
     public class cls_Alquileres_BLL
     {
+        #region Lógica de negocio para cargar la información de los alquileres
+
+        /// <summary>
+        /// Consulta y carga la lista de alquileres según los filtros especificados,
+        /// como usuario, apartamento y estado, ejecutando el procedimiento almacenado correspondiente.
+        /// El resultado se almacena en el DataTable del objeto de alquileres.
+        /// </summary>
+        /// <param name="obj_Alquileres_DAL"></param>
         public void cargaListarAlquileres(ref cls_Alquileres_DAL obj_Alquileres_DAL)
         {
             try
@@ -57,6 +65,16 @@ namespace BLL_ALQUISOFT.ControlAlquileres
             }
         }
 
+        #endregion
+
+        #region Lógica de negocio para el CRUD de los alquileres
+
+        /// <summary>
+        /// Consulta y obtiene la información detallada de un alquiler específico
+        /// según su identificador, ejecutando el procedimiento almacenado correspondiente.
+        /// El resultado se almacena en el DataTable del objeto de alquileres.
+        /// </summary>
+        /// <param name="obj_Alquileres_DAL"></param>
         public void ObtieneInformacioAlquileres(ref cls_Alquileres_DAL obj_Alquileres_DAL)
         {
             try
@@ -100,6 +118,10 @@ namespace BLL_ALQUISOFT.ControlAlquileres
             }
         }
 
+        /// <summary>
+        ///  Inserta un nuevo registro de alquiler en la base de datos.
+        /// </summary>
+        /// <param name="obj_Alquileres_DAL"></param>
         public void CrearAlquileres(ref cls_Alquileres_DAL obj_Alquileres_DAL)
         {
             try
@@ -155,6 +177,10 @@ namespace BLL_ALQUISOFT.ControlAlquileres
             }
         }
 
+        /// <summary>
+        /// Modifica un registro de alquiler existente en la base de datos.
+        /// </summary>
+        /// <param name="obj_Alquileres_DAL"></param>
         public void ModificarAlquileres(ref cls_Alquileres_DAL obj_Alquileres_DAL)
         {
             try
@@ -211,6 +237,10 @@ namespace BLL_ALQUISOFT.ControlAlquileres
             }
         }
 
+        /// <summary>
+        /// Elimina un registro de alquiler existente en la base de datos.
+        /// </summary>
+        /// <param name="obj_Alquileres_DAL"></param>
         public void EliminarAlquileres(ref cls_Alquileres_DAL obj_Alquileres_DAL)
         {
             try
@@ -257,6 +287,16 @@ namespace BLL_ALQUISOFT.ControlAlquileres
             }
         }
 
+        #endregion
+
+        #region Lógica de negocio utilizada para consultar la información de los gráficos
+
+        /// <summary>
+        /// Consulta y carga el resumen general de los alquileres asociados
+        /// a un usuario específico, ejecutando el procedimiento almacenado correspondiente.
+        /// El resultado se almacena en el DataTable del objeto de alquileres.
+        /// </summary>
+        /// <param name="obj_Alquileres_DAL"></param>
         public void cargaResumenAlquileres(ref cls_Alquileres_DAL obj_Alquileres_DAL)
         {
             try
@@ -300,6 +340,12 @@ namespace BLL_ALQUISOFT.ControlAlquileres
             }
         }
 
+        /// <summary>
+        /// Consulta y obtiene la cantidad de alquileres agrupados por estado
+        /// para un usuario específico, ejecutando el procedimiento almacenado correspondiente.
+        /// El resultado se almacena en el DataTable del objeto de alquileres.
+        /// </summary>
+        /// <param name="obj_Alquileres_DAL"></param>
         public void listarCantidadAlquileresXEstado(ref cls_Alquileres_DAL obj_Alquileres_DAL)
         {
             try
@@ -343,6 +389,12 @@ namespace BLL_ALQUISOFT.ControlAlquileres
             }
         }
 
+        /// <summary>
+        /// Consulta y obtiene la cantidad de alquileres agrupados por condición de pago
+        /// para un usuario específico, ejecutando el procedimiento almacenado correspondiente.
+        /// El resultado se almacena en el DataTable del objeto de alquileres.
+        /// </summary>
+        /// <param name="obj_Alquileres_DAL"></param>
         public void listarCantidadAlquileresXCondicionPago(ref cls_Alquileres_DAL obj_Alquileres_DAL)
         {
             try
@@ -385,5 +437,7 @@ namespace BLL_ALQUISOFT.ControlAlquileres
                 throw ex;
             }
         }
+
+        #endregion
     }
 }

@@ -12,6 +12,12 @@ namespace BLL_ALQUISOFT.ControlAlquileres
 {
     public class cls_Categoria_Apartamento_BLL
     {
+        /// <summary>
+        /// Consulta y obtiene la lista de categorías de apartamento
+        /// desde la base de datos, ejecutando el procedimiento almacenado correspondiente.
+        /// El resultado se almacena en el DataTable del objeto de Categoria_Apartamento.
+        /// </summary>
+        /// <param name="obj_Categoria_Apartamento_DAL"></param>
         public void listarCategoriasApartamento(ref cls_Categoria_Apartamento_DAL obj_Categoria_Apartamento_DAL)
         {
             try

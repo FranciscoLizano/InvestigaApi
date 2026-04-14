@@ -17,10 +17,10 @@ namespace DAL_ALQUISOFT.ControlAlquileres
         private DateTime _dFecha_Registro, _dFecha_Inicio, _dFecha_Fin;
         private Decimal _dMensualidad;
         //Sección de campos de la tabla
+
         //Sección presente en todas las clases
         private string _sValorScalar, _sAXN, _sMSJError;
         private DataTable _dtDatos, _dtParametros;
-
         //Sección presente en todas las clases
         #endregion
 

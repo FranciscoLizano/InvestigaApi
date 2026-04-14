@@ -12,6 +12,12 @@ namespace BLL_ALQUISOFT.ControlAlquileres
 {
     public class cls_Estado_Alquileres_BLL
     {
+        /// <summary>
+        /// Consulta y obtiene la lista de estados de alquileres
+        /// desde la base de datos, ejecutando el procedimiento almacenado correspondiente.
+        /// El resultado se almacena en el DataTable del objeto de Estado_Alquileres.
+        /// </summary>
+        /// <param name="obj_Estado_Alquileres_DAL"></param>
         public void listarEstadosAlquileres(ref cls_Estado_Alquileres_DAL obj_Estado_Alquileres_DAL)
         {
             try
