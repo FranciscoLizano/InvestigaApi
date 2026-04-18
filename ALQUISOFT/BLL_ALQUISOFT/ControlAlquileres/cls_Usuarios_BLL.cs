@@ -12,6 +12,11 @@ namespace BLL_AlQUISOFT.ControlAlquileres
 {
     public class cls_Usuarios_BLL
     {
+        /// <summary>
+        /// Realiza el proceso de inicio de sesión de un usuario mediante la validación
+        /// de credenciales (correo y contraseña) en la base de datos.
+        /// </summary>
+        /// <param name="obj_Usuarios_DAL"></param>
         public void Inicio_Sesion_Usuarios(ref cls_Usuarios_DAL obj_Usuarios_DAL)
         {
 			try
@@ -59,7 +64,12 @@ namespace BLL_AlQUISOFT.ControlAlquileres
 			}
         }
 
-		public void Obtiene_Informacion_Usuario(ref cls_Usuarios_DAL obj_Usuarios_DAL)
+        /// <summary>
+        /// Obtiene la información de un usuario específico desde la base de datos
+        /// mediante la ejecución de un procedimiento almacenado.
+        /// </summary>
+        /// <param name="obj_Usuarios_DAL"></param>
+        public void Obtiene_Informacion_Usuario(ref cls_Usuarios_DAL obj_Usuarios_DAL)
 		{
 			try
 			{
@@ -103,6 +113,11 @@ namespace BLL_AlQUISOFT.ControlAlquileres
             
         }
 
+        /// <summary>
+        /// Registra un nuevo usuario en la base de datos mediante la ejecución de un procedimiento almacenado. 
+        /// Este método construye la lista de parámetros requeridos para enviar a la base de datos.
+        /// </summary>
+        /// <param name="obj_Usuarios_DAL"></param>
         public void Registrar_Usuarios(ref cls_Usuarios_DAL obj_Usuarios_DAL)
         {
             try
@@ -153,6 +168,11 @@ namespace BLL_AlQUISOFT.ControlAlquileres
             }
         }
 
+        /// <summary>
+        /// Ejecuta el proceso de cierre de sesión de un usuario en la base de datos.
+        /// Este método llama a un procedimiento almacenado encargado de cerrar la sesión del usuario por su Id.
+        /// </summary>
+        /// <param name="obj_Usuarios_DAL"></param>
         public void Cerrar_Sesion_Usuarios(ref cls_Usuarios_DAL obj_Usuarios_DAL)
         {
             try

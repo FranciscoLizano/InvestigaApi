@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\InvestigaApi\\ALQUISOFT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\bll_alquisoft\\controlalquileres\\cls_usuarios_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|solutionrelative:bll_alquisoft\\controlalquileres\\cls_usuarios_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\bll_alquisoft\\controlalquileres\\cls_estado_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|solutionrelative:bll_alquisoft\\controlalquileres\\cls_estado_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|solutionrelative:bll_alquisoft\\controlalquileres\\cls_alquileres_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\bll_alquisoft\\controlalquileres\\cls_categoria_apartamento_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|solutionrelative:bll_alquisoft\\controlalquileres\\cls_categoria_apartamento_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|c:\\investigaapi\\alquisoft\\bll_alquisoft\\controlalquileres\\cls_condicion_pago_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9171425F-27EA-4C98-B5BE-52AAD26F42EA}|BLL_ALQUISOFT\\BLL_ALQUISOFT.csproj|solutionrelative:bll_alquisoft\\controlalquileres\\cls_condicion_pago_bll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -167,12 +183,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "cls_Usuarios_BLL.cs",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Usuarios_BLL.cs",
+              "RelativeDocumentMoniker": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Usuarios_BLL.cs",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Usuarios_BLL.cs",
+              "RelativeToolTip": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Usuarios_BLL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T02:26:04.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cls_Estado_Alquileres_BLL.cs",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Estado_Alquileres_BLL.cs",
+              "RelativeDocumentMoniker": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Estado_Alquileres_BLL.cs",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Estado_Alquileres_BLL.cs",
+              "RelativeToolTip": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Estado_Alquileres_BLL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T02:24:44.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cls_Condicion_Pago_BLL.cs",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Condicion_Pago_BLL.cs",
+              "RelativeDocumentMoniker": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Condicion_Pago_BLL.cs",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Condicion_Pago_BLL.cs",
+              "RelativeToolTip": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Condicion_Pago_BLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T02:23:11.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cls_Categoria_Apartamento_BLL.cs",
+              "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Categoria_Apartamento_BLL.cs",
+              "RelativeDocumentMoniker": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Categoria_Apartamento_BLL.cs",
+              "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Categoria_Apartamento_BLL.cs",
+              "RelativeToolTip": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Categoria_Apartamento_BLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T02:18:20.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "cls_Alquileres_BLL.cs",
               "DocumentMoniker": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "RelativeDocumentMoniker": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "ToolTip": "C:\\InvestigaApi\\ALQUISOFT\\BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
               "RelativeToolTip": "BLL_ALQUISOFT\\ControlAlquileres\\cls_Alquileres_BLL.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAIwBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoBAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-14T00:35:40.32Z",
               "EditorCaption": ""
