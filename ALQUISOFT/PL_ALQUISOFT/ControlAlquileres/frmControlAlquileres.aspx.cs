@@ -271,7 +271,19 @@ namespace PL_ALQUISOFT.ControlAlquileres
                  correspondientes del objeto de acceso a datos */
                 obj_Alquileres_DAL.iId_Usuario = Convert.ToInt32(obj_Parametros_JS[0].ToString());
                 obj_Alquileres_DAL.iId_Alquiler = Convert.ToInt32(obj_Parametros_JS[1].ToString());
+                // En esta condición se valida que apartamento no tenga un dato nulo o vacío
+                if (string.IsNullOrWhiteSpace(obj_Parametros_JS[2].ToString()))
+                {
+                    _mensaje += "0" + "<SPLITER>" + "Debe ingresar el dato del apartamento.";
+                    return _mensaje;
+                }
                 obj_Alquileres_DAL.sApartamento = obj_Parametros_JS[2].ToString();
+                // En esta condición se valida que nombre del inquilino no tenga un dato nulo o vacío
+                if (string.IsNullOrWhiteSpace(obj_Parametros_JS[3].ToString()))
+                {
+                    _mensaje += "0" + "<SPLITER>" + "Debe ingresar el nombre del inquilino.";
+                    return _mensaje;
+                }
                 obj_Alquileres_DAL.sNombre_Inquilino = obj_Parametros_JS[3].ToString();
                 obj_Alquileres_DAL.sCorreo = obj_Parametros_JS[4].ToString();
                 obj_Alquileres_DAL.sTelefono = obj_Parametros_JS[5].ToString();
@@ -281,7 +293,29 @@ namespace PL_ALQUISOFT.ControlAlquileres
                                 .Replace("₡", "")
                                 .Replace(" ", "")
                                 .Trim();
-                obj_Alquileres_DAL.dMensualidad = Convert.ToDecimal(valor);
+                // En esta condición se valida que valor no tenga un dato nulo o vacío
+                if (string.IsNullOrWhiteSpace(valor))
+                {
+                    _mensaje += "0" + "<SPLITER>" + "Debe ingresar el monto de la mensualidad.";
+                    return _mensaje;
+                }
+
+                // En esta condición se valida que valor sea un número
+                if (!decimal.TryParse(valor, out decimal mensualidad))
+                {
+                    _mensaje += "0" + "<SPLITER>" + "El monto ingresado no es válido.";
+                    return _mensaje;
+                }
+
+                // En esta condición se valida que mensualidad sea mayor a cero
+                if (mensualidad <= 0)
+                {
+                    _mensaje += "0" + "<SPLITER>" + "La mensualidad debe ser mayor a cero.";
+                    return _mensaje;
+                }
+
+                // Asignar valor válido
+                obj_Alquileres_DAL.dMensualidad = mensualidad;
                 obj_Alquileres_DAL.iId_Estado = Convert.ToInt32(obj_Parametros_JS[9].ToString());
                 obj_Alquileres_DAL.iId_CondPagoad = Convert.ToInt32(obj_Parametros_JS[10].ToString());
                 obj_Alquileres_DAL.iId_Categoria = Convert.ToInt32(obj_Parametros_JS[11].ToString());
